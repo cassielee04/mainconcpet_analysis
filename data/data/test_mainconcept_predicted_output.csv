@@ -1,0 +1,332 @@
+utterance,matched_concept,similarity_score,distance_to_centroid,is_main_concept,is_repeated
+there were 3 sisters wasn't?,Stepmother and stepsisters were mean to Cinderella.,0.4273,0.5727,True,False
+yeah uh 3 sisters.,Dad remarried a woman with two daughters.,0.2361,0.7639,True,False
+and cinderella was uh.,Cinderella and the prince were married.,0.6359,0.3641,True,False
+cinderella was she had uh she washed type of thing too and uh.,Cinderella had to do housework.,0.6404,0.3596,True,False
+i know what i wanna say.,,0.1091,0.8909,False,False
+but i mean.,,0.1027,0.8973,False,False
+oh i know.,,0.1078,0.8922,False,False
+she was invited to uh.,They got an invitation to the ball.,0.3484,0.6516,True,False
+to the ball type of thing too.,They are excited about the ball.,0.1362,0.8638,True,False
+and uh cinderella was.,Cinderella and the prince were married.,0.6448,0.3552,True,False
+and she had.,She returned home in time.,0.3409,0.6591,True,False
+to go uh.,They got an invitation to the ball.,0.2347,0.7653,True,False
+be there at 12 o'clock um i i.,,0.1294,0.8706,False,False
+at 12 o'clock and uh.,,0.1545,0.8455,False,False
+she had to be there at.,She knew she had to be home by midnight because everything will turn back at midnight.,0.3352,0.6648,True,False
+she had.,She returned home in time.,0.3477,0.6523,True,False
+to go she had.,She ran down the stairs.,0.4446,0.5554,True,False
+to she had.,She returned home in time.,0.3863,0.6137,True,False
+to go at 3 at 1 o'clock at 12 o'clock.,,0.1875,0.8125,False,False
+and uh.,,0.1401,0.8599,False,False
+her her godmother uh.,A fairy godmother appeared to Cinderella.,0.3957,0.6043,True,False
+she had pumpkin.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3875,0.6125,True,False
+her chariot was a pumpkin and then uh her her grandmother.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.4793,0.5207,True,False
+her godmother uh snapped or whatever.,Stepsisters tore Cinderella’s dress.,0.3249,0.6751,True,False
+and uh she she uh had a chariot.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3244,0.6756,True,False
+and she lost her slipper and then uh.,As she was running down the stairs she lost one of the glass slippers.,0.5931,0.4069,True,False
+he danced with her type of thing too.,The prince and Cinderella danced around the room/all night/with no one else.,0.2903,0.7097,True,False
+and uh she lost her slipper and uh.,As she was running down the stairs she lost one of the glass slippers.,0.5446,0.4554,True,False
+he was um.,,0.0981,0.9019,False,False
+i can't remember.,,0.2337,0.7663,False,False
+uh cinderella is living with her family um.,Cinderella lives with her stepmother and stepsisters.,0.6522,0.3478,True,False
+mom.,The slipper didn’t fit the stepsisters.,0.2662,0.7338,True,False
+and i believe 2 sisters.,Dad remarried a woman with two daughters.,0.2838,0.7162,True,False
+2 or 3.,,0.0583,0.9417,False,False
+and they're the um the apple of the eye of the mom.,Stepmother and stepsisters were mean to Cinderella.,0.3011,0.6989,True,False
+um cinderella is the girl who's taking care of everything.,Cinderella was a servant to the stepmother and stepsisters.,0.6993,0.3007,True,False
+um there's an announcement.,,0.1446,0.8554,False,False
+that there's going to be uh a a ball.,They got an invitation to the ball.,0.2721,0.7279,True,False
+and they're all gonna go we're all gonna get dressed up.,They got an invitation to the ball.,0.2427,0.7573,True,False
+and go.,,0.1357,0.8643,False,False
+except cinderella.,Cinderella had to do housework.,0.578,0.422,True,False
+uh she was not allowed.,Cinderella is told by the stepmother she cannot go to the ball unless.,0.3093,0.6907,True,False
+to go to the the ball.,They got an invitation to the ball.,0.2461,0.7539,True,False
+but she dreams about it.,Cinderella is told by the stepmother she cannot go to the ball unless.,0.2639,0.7361,True,False
+and plans and uh very godmother.,The fairy godmother makes Cinderella into a beautiful princess.,0.3403,0.6597,True,False
+um comes to her.,She ran down the stairs.,0.3131,0.6869,True,False
+and said i can.,,0.1847,0.8153,False,False
+i can fix it.,,0.1166,0.8834,False,False
+that you can go to the ball um she.,They got an invitation to the ball.,0.2577,0.7423,True,False
+um prepares.,,0.1061,0.8939,False,False
+or gets a dress.,Prince finds Cinderella’s shoe.,0.3418,0.6582,True,False
+or cinderella um.,Cinderella had to do housework.,0.6348,0.3652,True,False
+um they all all go off to the ball and the prince’s dancing with all the different ladies um.,Prince comes to Cinderella's house.,0.4934,0.5066,True,False
+and he sees cinderella.,Prince comes to Cinderella's house.,0.6083,0.3917,True,False
+and uh he dances with her.,The prince and Cinderella danced around the room/all night/with no one else.,0.3272,0.6728,True,False
+and he's really taken by her um.,The king think the prince should get married.,0.2595,0.7405,True,False
+however she has to be home.,She knew she had to be home by midnight because everything will turn back at midnight.,0.1971,0.8029,True,False
+because the dream.,,0.2646,0.7354,False,False
+that she has.,,0.2611,0.7389,False,False
+um we'll stop.,,0.0976,0.9024,False,False
+i believe it's midnight but at the time when it all goes back to reality.,Cinderella realized it is midnight.,0.1474,0.8526,True,False
+um.,,0.0956,0.9044,False,False
+so she realized what time it is.,Cinderella realized it is midnight.,0.3181,0.6819,True,False
+so she's running away.,She ran down the stairs.,0.353,0.647,True,False
+and when she does she loses the glass slipper.,As she was running down the stairs she lost one of the glass slippers.,0.558,0.442,True,False
+um.,,0.0956,0.9044,False,False
+and she gets into the carriage.,A fairy godmother appeared to Cinderella.,0.4665,0.5335,True,False
+and takes off.,Everything turns back to its original form.,0.3127,0.6873,True,False
+and it all turns back to the pumpkin and the mice.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.4042,0.5958,True,False
+that where the uh.,,0.198,0.802,False,False
+that were had had been they carried in the horses.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3649,0.6351,True,False
+as the time goes on um the person at the at the castle.,Prince comes to Cinderella's house.,0.4662,0.5338,True,False
+um is convinced.,,0.1131,0.8869,False,False
+that the prince wants.,The king think the prince should get married.,0.4003,0.5997,True,False
+to go around.,They got an invitation to the ball.,0.2497,0.7503,True,False
+and try.,,0.0541,0.9459,False,False
+to put the slipper on.,He put the slipper on Cinderella’s foot.,0.4904,0.5096,True,False
+and the girls and the uh community.,,0.1051,0.8949,False,False
+to see where his cinderella is.,He put the slipper on Cinderella’s foot.,0.496,0.504,True,False
+for his young girl is.,Dad remarried a woman with two daughters.,0.2365,0.7635,True,False
+that he would like.,,0.1229,0.8771,False,False
+to marry.,,0.3442,0.6558,False,False
+so he goes around the city and he when he comes.,Prince comes to Cinderella's house.,0.2753,0.7247,True,False
+to of the house where cinderella is the girls don't want.,Prince comes to Cinderella's house.,0.632,0.368,True,False
+to um try the shoe on but their feet are too big.,The slipper didn’t fit the stepsisters.,0.2642,0.7358,True,False
+and by mistake all of a sudden something happens in cinderella who was not.,Prince comes to Cinderella's house.,0.756,0.244,True,False
+supposed.,,0.1715,0.8285,False,False
+to try on this shoe.,The slipper didn’t fit the stepsisters.,0.2214,0.7786,True,False
+um let's put over in another area.,,0.0936,0.9064,False,False
+working um.,,0.0571,0.9429,False,False
+and they see that she's there.,A fairy godmother appeared to Cinderella.,0.2939,0.7061,True,False
+so they um go ahead.,,0.0795,0.9205,False,False
+and try.,,0.0541,0.9459,False,False
+to slip.,He put the slipper on Cinderella’s foot.,0.3304,0.6696,True,False
+the glass slipper on her.,As she was running down the stairs she lost one of the glass slippers.,0.4551,0.5449,True,False
+and it fits so she um she is the lady that he.,The slipper fits Cinderella perfectly.,0.32,0.68,True,False
+that the prince had.,Prince fell in love with Cinderella.,0.5413,0.4587,True,False
+um found and was interested in.,,0.1027,0.8973,False,False
+taking her back to the castle.,Cinderella had to do housework.,0.573,0.427,True,False
+to be married.,,0.3156,0.6844,False,False
+as far.,,0.0883,0.9117,False,False
+as i know that 's the end.,,0.1521,0.8479,False,False
+ok well there was this family and once upon a time of course it was this family.,Cinderella and the prince were married.,0.4048,0.5952,True,False
+and then in the family there was a so it was a case of a second marriage.,Dad remarried a woman with two daughters.,0.3933,0.6067,True,False
+and mama brought her.,A fairy godmother appeared to Cinderella.,0.46,0.54,True,False
+to uh pain and their daughters to the household.,Stepmother and stepsisters were mean to Cinderella.,0.3305,0.6695,True,False
+and then there was cinderella.,Cinderella and the prince were married.,0.7666,0.2334,True,False
+ella lived in the household.,Cinderella lives with her stepmother and stepsisters.,0.3943,0.6057,True,False
+and then they came in and were very cruel to her.,Stepmother and stepsisters were mean to Cinderella.,0.4237,0.5763,True,False
+and made her do all the menial tasks and everything like.,Cinderella had to do housework.,0.3899,0.6101,True,False
+and then finally someone comes along and is are you there?,Everything turns back to its original form.,0.2272,0.7728,True,False
+ok.,,0.0845,0.9155,False,False
+someone comes along from the from the king's palace.,The king think the prince should get married.,0.4179,0.5821,True,False
+and says there's going to be a ball that all the young ladies of a certain age are.,King announces there is going to be a ball in honor of son who needs to find a wife.,0.4095,0.5905,True,False
+to go.,She ran down the stairs.,0.2252,0.7748,True,False
+so they're getting already the two girls the the daughters in the household are getting all ready.,Stepmother and stepsisters went to the ball.,0.3722,0.6278,True,False
+to go.,She ran down the stairs.,0.2252,0.7748,True,False
+and they get all their fancy clothes and everything.,Cinderella lives with her stepmother and stepsisters.,0.2768,0.7232,True,False
+and of course cinderella isn't even being bothered.,Cinderella was upset.,0.6096,0.3904,True,False
+but a fairy godmother comes along.,The fairy godmother makes Cinderella into a beautiful princess.,0.5448,0.4552,True,False
+and she gets everything for her and her clothes and everything and beautiful little glass slippers.,The slipper fits Cinderella perfectly.,0.4881,0.5119,True,False
+and then she goes to the ball.,Cinderella went to the ball in the coach.,0.4328,0.5672,True,False
+and she goes in a coach that 's really like a huge pumpkin.,Cinderella went to the ball in the coach.,0.3677,0.6323,True,False
+and the the stipulation is she has to be back home.,She knew she had to be home by midnight because everything will turn back at midnight.,0.2026,0.7974,True,False
+i believe it's by midnight.,She knew she had to be home by midnight because everything will turn back at midnight.,0.1305,0.8695,True,False
+before the clock chimes midnight.,Cinderella realized it is midnight.,0.2478,0.7522,True,False
+anyway.,,0.1135,0.8865,False,False
+so she's having a wonderful time.,She returned home in time.,0.2594,0.7406,True,False
+and the prince thinks she's really cool.,The king think the prince should get married.,0.4859,0.5141,True,False
+and she oh we lost connection.,As she was running down the stairs she lost one of the glass slippers.,0.2584,0.7416,True,False
+hang on we lost connection.,,0.1329,0.8671,False,False
+and um when they get to the house where cinderella is she's not even.,Cinderella was upset.,0.6879,0.3121,True,False
+to be bothered.,,0.1234,0.8766,False,False
+but they just they realize there's another person there.,,0.1875,0.8125,False,False
+so they bring her in.,The fairy godmother makes Cinderella into a beautiful princess.,0.3752,0.6248,True,False
+and they place the slipper on her foot.,He put the slipper on Cinderella’s foot.,0.5597,0.4403,True,False
+it fits perfectly and the prince is very happy and she's very happy and they're together.,The slipper fits Cinderella perfectly.,0.4727,0.5273,True,False
+and they live happily ever after.,Cinderella and the prince were married.,0.4104,0.5896,True,False
+a mature woman appears at the front door with two young girls.,She returned home in time.,0.22,0.78,True,False
+and they have a cranky look on their face.,,0.1072,0.8928,False,False
+and then they show a third young girl playing with animals.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3107,0.6893,True,False
+and uh using a broom or a mop or something cleaning.,,0.1707,0.8293,False,False
+and uh and then.,Everything turns back to its original form.,0.2231,0.7769,True,False
+let's see i guess they get invited to uh some kind of an affair.,They got an invitation to the ball.,0.3612,0.6388,True,False
+and they the adults take off leave a little girl at home.,Cinderella lives with her stepmother and stepsisters.,0.4854,0.5146,True,False
+um she sees a woman with a purple dress on.,Prince finds Cinderella’s shoe.,0.4186,0.5814,True,False
+and appears to be a fairy godmother uh.,A fairy godmother appeared to Cinderella.,0.4643,0.5357,True,False
+i guess she cast a spell.,A fairy godmother appeared to Cinderella.,0.3905,0.6095,True,False
+and shows her a picture of a fancy dress.,The fairy godmother makes Cinderella into a beautiful princess.,0.4782,0.5218,True,False
+and uh she puts on this real nice dress.,The fairy godmother makes Cinderella into a beautiful princess.,0.3857,0.6143,True,False
+and uh i guess she goes.,Everything turns back to its original form.,0.2942,0.7058,True,False
+and shows her two other sisters.,Stepsisters tore Cinderella’s dress.,0.4509,0.5491,True,False
+i i think they laughed at her.,Cinderella was upset.,0.2941,0.7059,True,False
+uh they took off to the party.,They got an invitation to the ball.,0.4242,0.5758,True,False
+she stays home.,She knew she had to be home by midnight because everything will turn back at midnight.,0.1835,0.8165,True,False
+and then uh the fairy godmother appears again gave her a nicer dress.,A fairy godmother appeared to Cinderella.,0.6342,0.3658,True,False
+and then a pumpkin cart shows up uh.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.328,0.672,True,False
+she has a really nice white gown on.,A fairy godmother appeared to Cinderella.,0.3213,0.6787,True,False
+she gets in the gown they go to the dance.,The fairy godmother makes Cinderella into a beautiful princess.,0.4605,0.5395,True,False
+it appears she's dancing with this guy with a uniform on.,,0.1917,0.8083,False,False
+and then the clock strikes midnight she runs down like a ramp.,Cinderella realized it is midnight.,0.4377,0.5623,True,False
+and disappears.,,0.304,0.696,False,False
+and gets home with one slipper.,He put the slipper on Cinderella’s foot.,0.4658,0.5342,True,False
+and then later um the scene changes real quick.,Everything turns back to its original form.,0.2591,0.7409,True,False
+and she ends up with the prince.,Prince comes to Cinderella's house.,0.6082,0.3918,True,False
+and he's hugging her in some way.,He put the slipper on Cinderella’s foot.,0.265,0.735,True,False
+let's move on to something a little different.,,0.1442,0.8558,False,False
+ok.,,0.0845,0.9155,False,False
+cinderella was a wealthy young woman growing up with a father.,Cinderella was a servant to the stepmother and stepsisters.,0.7282,0.2718,True,False
+that loved her very much.,The fairy godmother makes Cinderella into a beautiful princess.,0.4547,0.5453,True,False
+and her mother had died.,Dad remarried a woman with two daughters.,0.4613,0.5387,True,False
+when the dad got remarried it drastically changed her life when uh the new mother the stepmother moved in with her two nasty daughters and they probably weren't very interested in the dad they just wanted his money.,Dad remarried a woman with two daughters.,0.4099,0.5901,True,False
+and they started.,,0.2058,0.7942,False,False
+to use cinderella as their servant.,Cinderella had to do housework.,0.6875,0.3125,True,False
+do you want me?,,0.1009,0.8991,False,False
+to continue with the rest of the story?,Cinderella went to the ball in the coach.,0.3403,0.6597,True,False
+yes please.,,0.0907,0.9093,False,False
+ok.,,0.0845,0.9155,False,False
+and then um she's out one day.,She returned home in time.,0.2815,0.7185,True,False
+and she sees the handsome prince.,Prince finds Cinderella’s shoe.,0.5549,0.4451,True,False
+and sort of falls in love.,The fairy godmother makes Cinderella into a beautiful princess.,0.3476,0.6524,True,False
+with him is fascinated with him.,,0.1736,0.8264,False,False
+and he gets a look at her.,Cinderella realized it is midnight.,0.2915,0.7085,True,False
+and wants.,,0.1914,0.8086,False,False
+to see more of her.,A fairy godmother appeared to Cinderella.,0.2226,0.7774,True,False
+but she is pretty much locked up in the house.,Cinderella lives with her stepmother and stepsisters.,0.2605,0.7395,True,False
+so he announces.,,0.2076,0.7924,False,False
+that he's gonna have a a ball.,King announces there is going to be a ball in honor of son who needs to find a wife.,0.2221,0.7779,True,False
+and have all the women all the young women in the town.,,0.1794,0.8206,False,False
+and the country comes.,Everything turns back to its original form.,0.2779,0.7221,True,False
+that he can see them all and they're all very excited.,They got an invitation to the ball.,0.2404,0.7596,True,False
+and the mother-in-law stepmother gets them all uh take care of daughters who are very homely all dressed up.,Cinderella lives with her stepmother and stepsisters.,0.483,0.517,True,False
+and doing the best she can do for them and poor cinderella who's locked up in the attic.,Cinderella had to do housework.,0.6505,0.3495,True,False
+and uh can't get out.,,0.1937,0.8063,False,False
+to get a dress.,Stepsisters tore Cinderella’s dress.,0.3897,0.6103,True,False
+or go.,,0.0732,0.9268,False,False
+to the pool has all her little friends.,Stepmother and stepsisters went to the ball.,0.3194,0.6806,True,False
+that she's made friends with the mice and the birds and all.,She knew she had to be home by midnight because everything will turn back at midnight.,0.3916,0.6084,True,False
+and they all make a very beautiful dress for her.,The fairy godmother makes Cinderella into a beautiful princess.,0.4215,0.5785,True,False
+to wear and uh.,,0.186,0.814,False,False
+they make a coach.,They got an invitation to the ball.,0.1673,0.8327,True,False
+to take her to the to the ball.,Stepmother and stepsisters went to the ball.,0.4447,0.5553,True,False
+so she travels to the ball but what she knows is.,Stepmother and stepsisters went to the ball.,0.4686,0.5314,True,False
+that she has to be home by the stroke of midnight.,She knew she had to be home by midnight because everything will turn back at midnight.,0.3392,0.6608,True,False
+because everything will change back to what it was.,,0.1174,0.8826,False,False
+the pet dogs will whoever they are mice will turn back into mice instead of the horses.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.2484,0.7516,True,False
+and the horseman will change back into whatever type of animal he was.,Everything turns back to its original form.,0.3177,0.6823,True,False
+before the story started.,He put the slipper on Cinderella’s foot.,0.3034,0.6966,True,False
+so she goes to the ball.,They got an invitation to the ball.,0.4133,0.5867,True,False
+and he uh dances.,The prince and Cinderella danced around the room/all night/with no one else.,0.2344,0.7656,True,False
+and he sees her.,Cinderella realized it is midnight.,0.3261,0.6739,True,False
+and they start.,,0.1487,0.8513,False,False
+to get together and it's midnight.,She knew she had to be home by midnight because everything will turn back at midnight.,0.2054,0.7946,True,False
+so she has.,,0.2461,0.7539,False,False
+to run off.,She ran down the stairs.,0.2435,0.7565,True,False
+one of her slippers falls off.,As she was running down the stairs she lost one of the glass slippers.,0.5706,0.4294,True,False
+so now he has her crystal slipper.,He put the slipper on Cinderella’s foot.,0.4901,0.5099,True,False
+so he's determined.,,0.1021,0.8979,False,False
+to find whoever in the coun in country.,,0.0952,0.9048,False,False
+foot could fit into this.,Prince finds Cinderella’s shoe.,0.213,0.787,True,False
+so they have cinderella locked up in.,Cinderella had to do housework.,0.674,0.326,True,False
+while he's coming around to their house.,Prince comes to Cinderella's house.,0.2954,0.7046,True,False
+the ugly stepsisters try.,Stepmother and stepsisters were mean to Cinderella.,0.3768,0.6232,True,False
+to cram their feet into it.,,0.1908,0.8092,False,False
+and i obviously can't get them in.,,0.1027,0.8973,False,False
+and she's she's locked up in the castle.,Cinderella and the prince were married.,0.454,0.546,True,False
+and i can't remember the right ending how.,The prince and Cinderella danced around the room/all night/with no one else.,0.3693,0.6307,True,False
+how she ends up getting down.,The fairy godmother makes Cinderella into a beautiful princess.,0.4041,0.5959,True,False
+it has.,,0.0982,0.9018,False,False
+to have something.,,0.1578,0.8422,False,False
+to do.,,0.1351,0.8649,False,False
+with the mice getting the key.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3288,0.6712,True,False
+and letting her out i think.,Cinderella was upset.,0.3387,0.6613,True,False
+and uh.,,0.1401,0.8599,False,False
+so she runs down they slipper fits.,The slipper didn’t fit the stepsisters.,0.4577,0.5423,True,False
+and she ends up getting married.,Cinderella and the prince were married.,0.4853,0.5147,True,False
+and being happily married forever and ever.,Cindrella and the prince lived happily ever after.,0.2424,0.7576,True,False
+once upon a time.,The prince and Cinderella danced around the room/all night/with no one else.,0.294,0.706,True,False
+there was a girl named cinderella.,Cinderella was a servant to the stepmother and stepsisters.,0.8173,0.1827,True,False
+and she lived with her sisters and her mother.,Cinderella lives with her stepmother and stepsisters.,0.441,0.559,True,False
+and she had.,She returned home in time.,0.3409,0.6591,True,False
+to do all the work.,,0.1879,0.8121,False,False
+and her sisters were getting ready for a ball.,Stepmother and stepsisters went to the ball.,0.4356,0.5644,True,False
+and she was not invited.,Cinderella is told by the stepmother she cannot go to the ball unless.,0.4074,0.5926,True,False
+so um i guess a fairy came along.,A fairy godmother appeared to Cinderella.,0.5026,0.4974,True,False
+and helped her get all dued up for the uh for the ball unknown to her sisters.,Stepmother and stepsisters went to the ball.,0.5078,0.4922,True,False
+and she goes to the ball.,Stepmother and stepsisters went to the ball.,0.4068,0.5932,True,False
+and looks really beautiful and pretty and everything.,The fairy godmother makes Cinderella into a beautiful princess.,0.2832,0.7168,True,False
+and meets the prince and dances with the prince.,Prince comes to Cinderella's house.,0.5894,0.4106,True,False
+however there is a limit to this uh situation.,,0.0632,0.9368,False,False
+she has got to be home by 12 which is appropriate for a young lady like her.,She knew she had to be home by midnight because everything will turn back at midnight.,0.2388,0.7612,True,False
+so she uh races to her pumpkin mobile.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3223,0.6777,True,False
+and gets home on time.,She returned home in time.,0.1795,0.8205,True,False
+but in the process loses her glass slipper.,As she was running down the stairs she lost one of the glass slippers.,0.5434,0.4566,True,False
+so uh the prince being gobsmacked by this young lady has some clue to who this might be.,The king think the prince should get married.,0.3806,0.6194,True,False
+so he's going all around trying.,,0.1278,0.8722,False,False
+to find the foot.,He put the slipper on Cinderella’s foot.,0.3088,0.6912,True,False
+that fits.,The slipper didn’t fit the stepsisters.,0.213,0.787,True,False
+and he finally finds cinderella.,Prince comes to Cinderella's house.,0.7332,0.2668,True,False
+and they uh they kind of get hooked up i guess.,,0.1664,0.8336,False,False
+and live happily ever after.,Cinderella and the prince were married.,0.3064,0.6936,True,False
+has 2 sisters.,Dad remarried a woman with two daughters.,0.361,0.639,True,False
+um to the um.,,0.1707,0.8293,False,False
+the uh cos of the old.,,0.1728,0.8272,False,False
+um.,,0.0956,0.9044,False,False
+as soon sooner rather uh not go to the the poor.,,0.0662,0.9338,False,False
+of the um.,,0.1018,0.8982,False,False
+sent.,,0.0195,0.9805,False,False
+and met the prince.,Prince fell in love with Cinderella.,0.4718,0.5282,True,False
+um the um um the um um.,,0.113,0.887,False,False
+that send it right on um um.,,0.2006,0.7994,False,False
+um that 's the um.,,0.11,0.89,False,False
+ah um yeah um um the fairy godmother yes.,A fairy godmother appeared to Cinderella.,0.4289,0.5711,True,False
+for a couple of the um uh.,,0.075,0.925,False,False
+the uh charles moon the uh um mass the um.,,0.1584,0.8416,False,False
+the um uh uh.,,0.1745,0.8255,False,False
+ho um the uh carriage right.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.2748,0.7252,True,False
+um um the um.,,0.1158,0.8842,False,False
+center of the um.,,0.0363,0.9637,False,False
+uh the uh uh shoes and the uh.,He put the slipper on Cinderella’s foot.,0.2947,0.7053,True,False
+um trust yeah.,,0.0166,0.9834,False,False
+on the uh on the uh.,,0.1425,0.8575,False,False
+yeah.,,0.0597,0.9403,False,False
+the uh uh.,,0.2045,0.7955,False,False
+cancer than the uh um.,,-0.0034,1.0034,False,False
+um the um 2 run um so from the uh.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.1517,0.8483,True,False
+um palos yeah.,,0.0094,0.9906,False,False
+um um.,,0.1478,0.8522,False,False
+yeah.,,0.0597,0.9403,False,False
+it's chaps.,,0.1143,0.8857,False,False
+um um.,,0.1478,0.8522,False,False
+and the um previous record magazine.,,0.0295,0.9705,False,False
+and the uh that um um sort of a park.,,0.0569,0.9431,False,False
+um um.,,0.1478,0.8522,False,False
+the um um um.,,0.1287,0.8713,False,False
+uh so like uh the um uh.,,0.1013,0.8987,False,False
+center uh um uh.,,0.0717,0.9283,False,False
+um he chopped down the ss um the um um um uh the um.,,0.1489,0.8511,False,False
+um the um uh.,,0.1295,0.8705,False,False
+uh uh so the business um um.,,0.078,0.922,False,False
+um goats right right.,,0.0245,0.9755,False,False
+um yes um.,,0.1337,0.8663,False,False
+you should yeah yeah yeah i like class right you know um yeah um.,,0.0238,0.9762,False,False
+the uh uh they go.,Everything turns back to its original form.,0.2483,0.7517,True,False
+and swim out they go back to the house.,She ran down the stairs.,0.3481,0.6519,True,False
+um yeah yeah.,,0.0848,0.9152,False,False
+and their prints.,,0.173,0.827,False,False
+the uh shoes were a class.,He put the slipper on Cinderella’s foot.,0.241,0.759,True,False
+um yeah yeah.,,0.0848,0.9152,False,False
+uh the um try.,,0.0997,0.9003,False,False
+to do.,,0.1351,0.8649,False,False
+that uh tried it.,,0.1976,0.8024,False,False
+um uh.,,0.1659,0.8341,False,False
+um they you know.,,0.0953,0.9047,False,False
+um this is right up on the uh.,,0.0396,0.9604,False,False
+uh parties.,They got an invitation to the ball.,0.2125,0.7875,True,False
+um so um.,,0.1211,0.8789,False,False
+um the um uh prince.,The king think the prince should get married.,0.4057,0.5943,True,False
+i know she used to work.,,0.1733,0.8267,False,False
+she did like a lot of household chores.,Cinderella had to do housework.,0.3728,0.6272,True,False
+and she had a what you would call her someone.,A fairy godmother appeared to Cinderella.,0.3534,0.6466,True,False
+that looked over you know was in charge and was not very nice to her.,Stepmother and stepsisters were mean to Cinderella.,0.342,0.658,True,False
+and um um i remember her losing uh one of her slippers.,As she was running down the stairs she lost one of the glass slippers.,0.4525,0.5475,True,False
+and um she had.,She knew she had to be home by midnight because everything will turn back at midnight.,0.3272,0.6728,True,False
+to go through the process or the it's a process.,,0.0864,0.9136,False,False
+to this prince she met this prince.,Prince fell in love with Cinderella.,0.5616,0.4384,True,False
+and he had she'd been involved with him.,Dad remarried a woman with two daughters.,0.2979,0.7021,True,False
+and then i guess he was looking for her.,The prince searched door to door for Cinderella.,0.367,0.633,True,False
+and he said whoever whoever's foot fit into the slipper.,He put the slipper on Cinderella’s foot.,0.4416,0.5584,True,False
+was the cinderella i guess.,Cinderella had to do housework.,0.7242,0.2758,True,False
+that he was looking.,The prince searched door to door for Cinderella.,0.2349,0.7651,True,False
