@@ -1,0 +1,307 @@
+participant_code,Utterance,Error Type,Matched Concept
+RCL5752,Still Cinderella and the stepsisters.,Coherent,Cinderella lives with her stepmother/stepsisters.
+RCL5752,OK.,Conceptual Incongruence,
+RCL5752,It's time for you.,Coherent,Cinderella realized it is midnight.
+RCL5752,"Cinderella and the Stepsisters Cinderella and the witch, no, no, it's it.",Missing Referent,Cinderella was a servant to the stepmother and stepsisters.
+RCL5752,Cinderella and magic.,Coherent,Prince falls in love with Cinderella.
+RCL5752,Pumpkin.,Coherent,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+RCL5752,And the uh horses.,Topic Switching,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+RCL5752,Cinderella and the uh.,Propositional Repetition,Prince falls in love with Cinderella.
+RCL5752,The governor chief was Princess And Cinderella.,Coherent,Cinderella and the prince were married.
+RCL5752,Cinderella and uh.,Propositional Repetition,Prince comes to Cinderella's house.
+RCL5752,The uh The slipper.,Coherent,He put the slipper on Cinderella’s foot.
+RCL5752,Cinderella and the prince.,Propositional Repetition,Prince falls in love with Cinderella.
+69-1,Cinderella was a uh A fairy tale.,Coherent,The fairy godmother makes Cinderella into a beautiful princess.
+69-1,that um I guess it's her stepmother.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+69-1,and she has the stepmother has two ugly daughters.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+69-1,And Cinderella is wanting to go to the ball.,Coherent,Cinderella went to the ball in the coach.
+69-1,"And she gets dressed real pretty,.",Coherent,The slipper fits Cinderella perfectly.
+69-1,and the girls insult her.,Coherent,Cinderella was upset.
+69-1,and rip the necklace off her off her neck.,Coherent,Cinderella has to do housework.
+69-1,"and She, uh, wishes.",Coherent,Cinderella realized it is midnight.
+69-1,"that she had a pretty dress,.",Coherent,A fairy godmother appeared to Cinderella.
+69-1,"and I think a fairy godmother, I don't know who the woman was, I think it's a fairy godmother shows up.",Coherent,A fairy godmother appeared to Cinderella.
+69-1,"and gives her a dress and glass slippers,.",Missing Referent,He put the slipper on Cinderella’s foot.
+69-1,but she has to be back by 12 midnight.,Coherent,She knew she had to be home by midnight because everything will turn back at midnight.
+69-1,"So when the clock strikes 12, she starts to run.",Coherent,She ran down the stairs.
+69-1,Loss a slipper.,Coherent,As she was running down the stairs she lost one of the glass slippers.
+69-1,"And The prince Who she meets at the dance comes looking for her,.",Topic Switching,Prince comes to Cinderella's house.
+69-1,and The slipper fits so.,Coherent,The slipper fits Cinderella perfectly.
+69-1,They get together.,Missing Referent,They got an invitation to the ball.
+Baycrest13074,"Yeah,.",Filler,
+Baycrest13074,"if I remember it right, um, so we can use this book to, um, sharpen your memory a little bit.",Filler,
+Baycrest13074,So what we've done with this is we've um taken out all of the words.,Filler,
+Baycrest13074,and we've take some of the pages together.,Conceptual Incongruence,
+Baycrest13074,"So I'll just, um.",Filler,
+Baycrest13074,They brought us through here to.,Tangential Utterance,They got an invitation to the ball.
+Baycrest13074,Remind you.,Conceptual Incongruence,
+Baycrest13074,Um.,Filler,
+Baycrest13074,Hm Mhm.,Conceptual Incongruence,
+Baycrest13074,"OK, I don't remember fully.",Filler,
+Baycrest13074,I just came in.,Conceptual Incongruence,
+Baycrest13074,"like , uh, you know, like that's all.",Filler,
+Baycrest13074,like I don't remember.,Filler,
+Baycrest13074,"like as page by page for sure, no, we're just using this to, to stimulate your memory if you're able to tell me the story, then OK, just it's brief, like more like the point kind of thing.",Coherent,Prince falls in love with Cinderella.
+Baycrest13074,So good.,Filler,
+Baycrest13074,"OK, and I,.",Conceptual Incongruence,
+Baycrest13074,"if I remember correctly, it was this one girl, she was working.",Topic Switching,The prince and Cinderella danced around the room/all night/with no one else.
+Baycrest13074,"Uh, she was adopted, whatever with from by this one lady who had 3 daughters,.",Coherent,Dad remarried a woman with two daughters.
+Baycrest13074,"and the lady took very good care of the 3 girls,.",Coherent,She returned home in time.
+Baycrest13074,and Cinderella had to do all the hard work.,Coherent,Cinderella has to do housework.
+Baycrest13074,Scrub the floors and all the menial task.,Conceptual Incongruence,
+Baycrest13074,and there was a party going on.,Topic Switching,They got an invitation to the ball.
+Baycrest13074,And the girls were all dressed their way to the party.,Missing Referent,She knew she had to be home by midnight because everything will turn back at midnight.
+Baycrest13074,"The mom helped them dressed them,.",Missing Referent,Stepmother/stepsisters went to the ball.
+Baycrest13074,"and Cinderella was just left there, nothing to do,.",Coherent,Cinderella has to do housework.
+Baycrest13074,and then all of a sudden a very I guess came.,Coherent,A fairy godmother appeared to Cinderella.
+Baycrest13074,"and gave her a dress,.",Missing Referent,He put the slipper on Cinderella’s foot.
+Baycrest13074,and she went to the party.,Coherent,She returned home in time.
+Baycrest13074,and she met the prince.,Coherent,Cinderella and the prince were married.
+Baycrest13074,and He danced with her.,Missing Referent,The prince and Cinderella danced around the room/all night/with no one else.
+Baycrest13074,and she had to be home by a certain time.,Missing Referent,She knew she had to be home by midnight because everything will turn back at midnight.
+Baycrest13074,"and by the time she left something with the slippers, she left her slipper there, something like that, that's what I mean.",Missing Referent,As she was running down the stairs she lost one of the glass slippers.
+Baycrest12756,um uh woman and the um her.,Missing Referent,Stepmother/stepsisters went to the ball.
+Baycrest12756,"Um, mother,.",Coherent,Stepmother/stepsisters went to the ball.
+Baycrest12756,"and they don't want um Cinderella, they, they want them just to.",Topic Switching,Cinderella has to do housework.
+Baycrest12756,We do They can't do anything with?,Missing Referent,
+Baycrest12756,"that , yeah, OK, uh, do you know more of the story, the story?",Coherent,Cinderella went to the ball in the coach.
+Baycrest12756,"Well, there comes a little.",Filler,
+Baycrest12756,"Um, into a, um.",Topic Switching,Cinderella went to the ball in the coach.
+Baycrest12756,"It's really a carbon, no.",Conceptual Incongruence,
+Baycrest12756,"Yeah, there is a um.",Coherent,They are excited about the ball.
+Baycrest12756,Is a carriage?,Coherent,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+Baycrest12756,that you're looking for?,Conceptual Incongruence,
+Baycrest12756,Probably.,Conceptual Incongruence,
+Baycrest12756,"Yeah,.",Filler,
+Baycrest12756,"and they have the a prince, and ,.",Topic Switching,The king thinks the prince should get married.
+Baycrest12756,and the princes cannot have any other ones.,Coherent,The king thinks the prince should get married.
+Baycrest12756,"that Uh, doesn't know when he hints that it's in with Cinderella with the I there.",Missing Referent,He put the slipper on Cinderella’s foot.
+Baycrest12756,"And then they went go out to forever, forever.",Topic Switching,The prince and Cinderella danced around the room/all night/with no one else.
+Baycrest12756,"and ever, love.",Conceptual Incongruence,
+16-1,Cinderella basically was an orphan.,Coherent,Cinderella was a servant to the stepmother and stepsisters.
+16-1,"I really don't remember how she became an orphan, but she was an orphan.",Tangential Utterance,Cinderella was a servant to the stepmother and stepsisters.
+16-1,and she went to live.,Coherent,She returned home in time.
+16-1,"With this mother and her two,.",Coherent,Dad remarried a woman with two daughters.
+16-1,"and I can't remember, it's 2 or 3 daughters who were not too attractive.",Tangential Utterance,Dad remarried a woman with two daughters.
+16-1,"Cinderella really basically was attractive,.",Coherent,The fairy godmother makes Cinderella into a beautiful princess.
+16-1,"but she did all the the the crazy work in the house, she built the fires.",Coherent,Cinderella has to do housework.
+16-1,"and mopped the floors, etc.",Missing Referent,Cinderella has to do housework.
+16-1,And there's a big ball coming up and the the sisters were so excited.,Topic Switching,They are excited about the ball.
+16-1,and they were gonna go.,Coherent,They got an invitation to the ball.
+16-1,"and they're gonna meet the prince,.",Coherent,The king thinks the prince should get married.
+16-1,and they all wanted to have the prince fall madly in love with them.,Coherent,Cinderella and the prince were married.
+16-1,"Well, at the last minute, the girls all get dressed up.",Coherent,Stepsisters tore Cinderella’s dress.
+16-1,Fairy godmother comes.,Coherent,A fairy godmother appeared to Cinderella.
+16-1,and put Cinderella in a lovely dress.,Coherent,Cinderella has to do housework.
+16-1,"She looked great, and a pair of glass slippers.",Coherent,The slipper fits Cinderella perfectly.
+16-1,And she went downstairs and the sisters were not happy to see her.,Coherent,Cinderella was upset.
+16-1,And everybody went to the ball.,Coherent,They got an invitation to the ball.
+16-1,"The prince danced with his sisters, certainly weren't taken by him,.",Coherent,The prince and Cinderella danced around the room/all night/with no one else.
+16-1,and danced with Cinderella.,Missing Referent,Cinderella and the prince were married.
+16-1,"and Asked her to leave with him,.",Missing Referent,Cinderella was upset.
+16-1,"as they're leaving, going down the wide steps, she lost one glass slipper.",Coherent,As she was running down the stairs she lost one of the glass slippers.
+16-1,"And she had to be home by midnight, I think midnight.",Coherent,She knew she had to be home by midnight because everything will turn back at midnight.
+16-1,I'm not sure about that.,Conceptual Incongruence,
+16-1,"Um, She gets home And the prince is so upset.",Missing Referent,Prince comes to Cinderella's house.
+16-1,He has the slipper.,Coherent,He put the slipper on Cinderella’s foot.
+16-1,and he wants to find the person that the slipper fits.,Coherent,He put the slipper on Cinderella’s foot.
+16-1,"So he goes back to the home where the stepmother and the three girls, 2.",Coherent,Cinderella lives with her stepmother/stepsisters.
+16-1,"or 3 girls live,.",Coherent,Dad remarried a woman with two daughters.
+16-1,"and of course, tried the slipper on everyone.",Missing Referent,He put the slipper on Cinderella’s foot.
+16-1,and it didn't fit.,Coherent,The slipper didn’t fit the stepsisters.
+16-1,until all of a sudden Cinderella appears.,Coherent,Cinderella has to do housework.
+16-1,and the slipper fit her.,Coherent,The slipper fits Cinderella perfectly.
+16-1,And the fairy godmother said that was wonderful.,Coherent,A fairy godmother appeared to Cinderella.
+16-1,I can't remember the really bitter end.,Tangential Utterance,Cinderella and the prince lived happily ever after.
+16-1,I think Cinderella took off with the prince.,Coherent,Prince comes to Cinderella's house.
+16-1,That's all I remember.,Filler,
+HWN0674a,"Yes, brother.",Conceptual Incongruence,
+HWN0674a,Good.,Conceptual Incongruence,
+HWN0674a,And the two sisters.,Topic Switching,Cinderella lives with her stepmother/stepsisters.
+HWN0674a,Um-hum.,Filler,
+HWN0674a,And there's the mother.,Topic Switching,Dad remarried a woman with two daughters.
+HWN0674a,OK.,Conceptual Incongruence,
+HWN0674a,"They are The mother and the daughters there, two daughters is at the piano.",Topic Switching,Stepmother/stepsisters went to the ball.
+HWN0674a,"Sitting around, she's cleaning up the floors.",Coherent,Cinderella has to do housework.
+HWN0674a,"Oh, there's someone coming to the door to tell them something is going on,.",Missing Referent,Stepmother/stepsisters went to the ball.
+HWN0674a,and there was a paper being sent to a letter or something.,Coherent,Stepmother/stepsisters went to the ball.
+HWN0674a,Mother got the letter as to what's happening.,Coherent,Stepmother/stepsisters went to the ball.
+HWN0674a,"Oh, she's excited.",Filler,
+HWN0674a,"Oh, it is about to go to, to the ball,.",Missing Referent,They are excited about the ball.
+HWN0674a,"and who's going, the two girls only and the mother, and not from the window.",Coherent,Cinderella lives with her stepmother/stepsisters.
+HWN0674a,She's sitting out the window.,Coherent,As she was running down the stairs she lost one of the glass slippers.
+HWN0674a,"Oh,.",Filler,
+HWN0674a,but she's got a.,Topic Switching,Cinderella has to do housework.
+HWN0674a,"Young lady, the prince, not the princess,.",Coherent,Cinderella and the prince were married.
+HWN0674a,"but she's the, her, what you would call her, she's crying to her and she's her and , uh,.",Coherent,The fairy godmother makes Cinderella into a beautiful princess.
+HWN0674a,"and , um, you know, let's say.",Filler,
+HWN0674a,"Anyway, she's going to see.",Coherent,Cinderella realized it is midnight.
+HWN0674a,that she goes.,Coherent,She ran down the stairs.
+HWN0674a,OK.,Conceptual Incongruence,
+HWN0674a,"And then there's a, A full.",Topic Switching,Cinderella went to the ball in the coach.
+HWN0674a,"and it's being turned into a Mhm A couch, not a couch.",Conceptual Incongruence,
+HWN0674a,Going to take her to a ride.,Missing Referent,Cinderella has to do housework.
+HWN0674a,"And there's a, there's a, The, the mouses there, they turn into horses to take them.",Topic Switching,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+HWN0674a,"And the, The good woman got got her all dressed up.",Missing Referent,A fairy godmother appeared to Cinderella.
+HWN0674a,Now she's over there.,Coherent,She returned home in time.
+HWN0674a,"and she's letting what to do and how, what she, when she should come back.",Missing Referent,She returned home in time.
+HWN0674a,So she's back at the party.,Coherent,She returned home in time.
+HWN0674a,"and all, she's down, going to dance, she's there.",Missing Referent,The prince and Cinderella danced around the room/all night/with no one else.
+HWN0674a,"And there's the prince there, oh.",Coherent,Prince finds Cinderella’s shoe.
+HWN0674a,And he's dancing with her.,Missing Referent,The prince and Cinderella danced around the room/all night/with no one else.
+HWN0674a,"All, all of a sudden it's 12 o'clock.",Coherent,Cinderella realized it is midnight.
+HWN0674a,and she's got to go.,Coherent,Cinderella has to do housework.
+HWN0674a,"because she's been told to leave there, come out at 12.",Coherent,She knew she had to be home by midnight because everything will turn back at midnight.
+HWN0674a,"Uh, Now, she lost her shoe.",Missing Referent,As she was running down the stairs she lost one of the glass slippers.
+HWN0674a,What?,Conceptual Incongruence,
+HWN0674a,She lost her shoe.,Propositional Repetition,As she was running down the stairs she lost one of the glass slippers.
+HWN0674a,"Now the shoe is being showed to him,.",Missing Referent,Prince finds Cinderella’s shoe.
+HWN0674a,"and he wants them to find out where, who's got.",Missing Referent,
+HWN0674a,"that to fit on who,.",Missing Referent,The slipper fits Cinderella perfectly.
+HWN0674a,because I want that young lady back.,Conceptual Incongruence,
+HWN0674a,They're looking at this lady now over there.,Conceptual Incongruence,
+HWN0674a,and looking at her sister there.,Missing Referent,Cinderella was upset.
+HWN0674a,"And then they saw some, she said,.",Missing Referent,A fairy godmother appeared to Cinderella.
+HWN0674a,"but Steve, they didn't say anything to her,.",Missing Referent,Cinderella lives with her stepmother/stepsisters.
+HWN0674a,but she's standing up there.,Coherent,Cinderella has to do housework.
+HWN0674a,"Oh,.",Filler,
+HWN0674a,"but they, he had her.",Topic Switching,Cinderella and the prince were married.
+HWN0674a,"and say, come on, let me try you.",Conceptual Incongruence,
+HWN0674a,"And she did,.",Missing Referent,She returned home in time.
+HWN0674a,"and it fit,.",Missing Referent,The slipper fits Cinderella perfectly.
+HWN0674a,and now she's getting married.,Coherent,Cinderella and the prince were married.
+HWN0674a,Goodbye.,Conceptual Incongruence,
+10-1,Cinderella was with a wicked stepmother.,Coherent,Cinderella was a servant to the stepmother and stepsisters.
+10-1,and she had Two stepsisters who were very mean.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+10-1,They were very jealous of her.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+10-1,"And they made Cinderella, she had to do everything.",Coherent,Cinderella has to do housework.
+10-1,She had to sweep the floor.,Coherent,She ran down the stairs.
+10-1,and make the beds.,Coherent,Cinderella has to do housework.
+10-1,and keep the house clean.,Coherent,Cinderella has to do housework.
+10-1,The stepsisters didn't have to do anything.,Topic Switching,Stepmother/stepsisters went to the ball.
+10-1,"And let's see, how did the glass slipper come into it?",Coherent,He put the slipper on Cinderella’s foot.
+10-1,"She went to, 00, they were gonna have a ball.",Missing Referent,Stepmother/stepsisters went to the ball.
+10-1,And she had her little mice friends.,Missing Referent,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+10-1,and they made a beautiful dress for her.,Missing Referent,The fairy godmother makes Cinderella into a beautiful princess.
+10-1,so she could go to this ball.,Missing Referent,They got an invitation to the ball.
+10-1,But at the last minute the stepmother said she couldn't.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+10-1,"Go, I guess her chores weren't done.",Coherent,Cinderella has to do housework.
+10-1,so she They all left.,Missing Referent,As she was running down the stairs she lost one of the glass slippers.
+10-1,"and she was all weeping,.",Coherent,Cinderella was upset.
+10-1,and then her fairy godmother came.,Coherent,A fairy godmother appeared to Cinderella.
+10-1,"and there was a um a coach, a beautiful coach,.",Coherent,Cinderella went to the ball in the coach.
+10-1,"and she said she could go to the ball in this in this coach, which he did.",Missing Referent,Cinderella went to the ball in the coach.
+10-1,So she went to the ball.,Coherent,Stepmother/stepsisters went to the ball.
+10-1,and came down the staircase.,Missing Referent,She ran down the stairs.
+10-1,"And for some reason, this this Stepmother, the mean stepmother.",Coherent,Stepmother/stepsisters were mean to Cinderella.
+10-1,"and the sisters didn't recognize her,.",Coherent,The slipper didn’t fit the stepsisters.
+10-1,but she came down.,Coherent,She ran down the stairs.
+10-1,and she was um She was dancing with this very handsome prince.,Coherent,The prince and Cinderella danced around the room/all night/with no one else.
+10-1,"And she had the one rule was she had to be home by midnight,.",Coherent,She knew she had to be home by midnight because everything will turn back at midnight.
+10-1,"but she was having such a good time, time kind of got away with her.",Missing Referent,Cinderella was upset.
+10-1,midnight struck on the clock.,Coherent,Cinderella realized it is midnight.
+10-1,And she said she had to go.,Missing Referent,Cinderella was upset.
+10-1,and she ran up the steps.,Missing Referent,She ran down the stairs.
+10-1,"and she, her clothes turned back to the old clothes that she had,.",Missing Referent,She returned home in time.
+10-1,and the uh coach turned back into a pumpkin.,Coherent,Cinderella went to the ball in the coach.
+10-1,"And uh Meanwhile, she lost her glass slipper.",Missing Referent,As she was running down the stairs she lost one of the glass slippers.
+10-1,so the prince.,Coherent,The king thinks the prince should get married.
+10-1,"Really was attracted to her,.",Topic Switching,Cinderella was upset.
+10-1,so he took this glass slipper.,Topic Switching,He put the slipper on Cinderella’s foot.
+10-1,"and went throughout the land to try to find it was a very small, try to find the owner.",Missing Referent,The prince searched door to door for Cinderella.
+10-1,"Well, he went to the stepmother's house and the girls were, of course, they were sure they could squeeze into the slipper,.",Missing Referent,He put the slipper on Cinderella’s foot.
+10-1,"but they, they couldn't.",Missing Referent,
+10-1,They were getting ready ready to leave.,Missing Referent,They got an invitation to the ball.
+10-1,They kind of shooed um Cinderella away and uh.,Missing Referent,Cinderella was upset.
+10-1,Somebody saw her.,Coherent,A fairy godmother appeared to Cinderella.
+10-1,"and said, oh we she needs to try on the shoe.",Missing Referent,The slipper didn’t fit the stepsisters.
+10-1,and it fit.,Coherent,The slipper fits Cinderella perfectly.
+10-1,and They got together.,Missing Referent,Cinderella and the prince were married.
+10-1,and lived happily ever after.,Missing Referent,Cinderella and the prince lived happily ever after.
+10-1,She and Prince.,Missing Referent,Cinderella and the prince were married.
+Baycrest13188,has 2 sisters.,Missing Referent,Dad remarried a woman with two daughters.
+Baycrest13188,"Um, to the, um.",Filler,
+Baycrest13188,The uh cos of the old.,Coherent,Stepmother/stepsisters were mean to Cinderella.
+Baycrest13188,"Um, as soon, sooner rather, uh, not go to the, the poor.",Filler,
+Baycrest13188,Of the um.,Filler,
+Baycrest13188,Sent.,Missing Referent,
+Baycrest13188,and met the prince.,Topic Switching,Cinderella and the prince were married.
+Baycrest13188,"Um, The um Um, The um um.",Filler,
+Baycrest13188,That send it right on um um.,Topic Switching,They got an invitation to the ball.
+Baycrest13188,Um That's the um.,Filler,
+Baycrest13188,"Ah Um Yeah, Um, Um The fairy godmother, yes.",Coherent,A fairy godmother appeared to Cinderella.
+Baycrest13188,For a couple of the um uh.,Filler,
+Baycrest13188,"The uh Charles Moon, the uh um mass, the um.",Filler,
+Baycrest13188,The um uh uh.,Filler,
+Baycrest13188,"Ho Um, the uh carriage, right.",Coherent,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.
+Baycrest13188,"Um, um, the, um.",Filler,
+Baycrest13188,Center of the um.,Filler,
+Baycrest13188,"Uh, the, uh Uh, shoes and the uh.",Coherent,The slipper didn’t fit the stepsisters.
+Baycrest13188,"Um Trust, yeah.",Filler,
+Baycrest13188,On the uh on the uh.,Filler,
+Baycrest13188,Yeah.,Filler,
+Baycrest13188,The uh uh.,Filler,
+Baycrest13188,Cancer than the uh um.,Filler,
+Baycrest13188,"Um The, um, 2 run, um, so from the uh.",Coherent,Stepmother/stepsisters went to the ball.
+Baycrest13188,"Um, Palos, yeah.",Filler,
+Baycrest13188,Um Um.,Filler,
+Baycrest13188,Yeah.,Filler,
+Baycrest13188,It's chaps.,Conceptual Incongruence,
+Baycrest13188,"Um, um.",Filler,
+Baycrest13188,And the um previous record magazine.,Filler,
+Baycrest13188,"And the uh With that, Um, Um, sort of a park.",Filler,
+Baycrest13188,Um Um.,Filler,
+Baycrest13188,The um um um.,Filler,
+Baycrest13188,Uh so like uh the um uh.,Filler,
+Baycrest13188,Center uh um uh.,Filler,
+Baycrest13188,"Um, He chopped down the ss um the Um Um Um Uh, the, um.",Filler,
+Baycrest13188,Um The um uh.,Filler,
+Baycrest13188,"Uh, uh, so the business, um, um.",Filler,
+Baycrest13188,"Um, Goats, right, right.",Filler,
+Baycrest13188,"Um, yes, um.",Filler,
+Baycrest13188,"You should, yeah, yeah, yeah, I like class, right, you know, um, yeah, um.",Filler,
+Baycrest13188,"The uh Uh, they go.",Missing Referent,Everything turns back to its original form.
+Baycrest13188,and swim out they go back to the house.,Missing Referent,She ran down the stairs.
+Baycrest13188,"Um, yeah, yeah.",Filler,
+Baycrest13188,And their prints.,Missing Referent,
+Baycrest13188,The uh shoes were a class.,Coherent,He put the slipper on Cinderella’s foot.
+Baycrest13188,"Um, yeah, yeah.",Filler,
+Baycrest13188,"Uh The um Try to do that, uh, tried it.",Filler,
+Baycrest13188,Um Uh.,Filler,
+Baycrest13188,"Um, they, you know.",Filler,
+Baycrest13188,"Um, This is right up on the uh.",Filler,
+Baycrest13188,"Uh, parties.",Coherent,Stepmother/stepsisters went to the ball.
+Baycrest13188,"Um, And so um.",Filler,
+Baycrest13188,"Um, The um uh prince.",Topic Switching,The king thinks the prince should get married.
+47-1,"But Cinderella was a, I guess you'd say she was a housekeeper or maid in in in in that home.",Coherent,Cinderella was a servant to the stepmother and stepsisters.
+47-1,that had some beautiful children.,Coherent,Cinderella and the prince were married.
+47-1,and uh There there was a party.,Coherent,The prince and Cinderella danced around the room/all night/with no one else.
+47-1,and uh get something about the prince got there.,Coherent,Prince comes to Cinderella's house.
+47-1,"and uh thought she was very, very beautiful.",Missing Referent,Cinderella was upset.
+47-1,We didn't know who she was.,Tangential Utterance,Cinderella was upset.
+47-1,And then he found the shoe.,Coherent,Prince finds Cinderella’s shoe.
+47-1,"or she left her shoe somewhere,.",Missing Referent,As she was running down the stairs she lost one of the glass slippers.
+47-1,"and the story was if the, if , if it was her shoe, then the prince wanted to meet her.",Missing Referent,Prince finds Cinderella’s shoe.
+47-1,"or do something with her,.",Missing Referent,
+47-1,"but in any case, they tried the shoe on all the women and uh She was the one who fit the shoe.",Topic Switching,The slipper didn’t fit the stepsisters.
+47-1,"or the shoe fit her,.",Missing Referent,The slipper didn’t fit the stepsisters.
+47-1,"and she went off with the prince,.",Missing Referent,Cinderella and the prince were married.
+47-1,and they lived happily ever after.,Missing Referent,Cinderella and the prince lived happily ever after.
+BDY3628a,OK.,Conceptual Incongruence,
+BDY3628a,OK.,Conceptual Incongruence,
+BDY3628a,"Um, When On the first A page there is, uh, 11, One young, Um, A Woman who, OK.",Topic Switching,Stepsisters tore Cinderella’s dress.
+BDY3628a,"Um, And The other two, Young women.",Coherent,Stepmother/stepsisters went to the ball.
+BDY3628a,Um-hum.,Filler,
+BDY3628a,"Um, And The mother.",Coherent,Stepmother/stepsisters went to the ball.
+BDY3628a,Of the two.,Conceptual Incongruence,
+BDY3628a,Um.,Filler,
+BDY3628a,"The two sisters, um, Have a wonderful life.",Topic Switching,Cinderella lives with her stepmother/stepsisters.
+BDY3628a,"Um, and the other, Is, is the person who takes care of cleaning and cooking, etc.",Coherent,Cinderella lives with her stepmother/stepsisters.
+BDY3628a,etc.,Conceptual Incongruence,
+BDY3628a,Yeah.,Filler,
+BDY3628a,"Um, Um, Uh, See, uh,.",Filler,
+BDY3628a,"and , This Country, um, says.",Filler,
+BDY3628a,"that he wants, um, To have, Apprentice for his, um, Um, The mother of the two, Um, Thinks that 's wonderful.",Missing Referent,King announces there is going to be a ball in honor of son who needs to find a wife.
+BDY3628a,And the three of them go to the party.,Missing Referent,Cinderella lives with her stepmother/stepsisters.
+BDY3628a,"Um,.",Filler,
+BDY3628a,"And Um, The third, Young lady in this home is, Not.",Topic Switching,Cinderella lives with her stepmother/stepsisters.

@@ -7,16 +7,16 @@ from sentence_transformers import SentenceTransformer, util
 from ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns
 from segment_utterance import segment_utterances
 from fillers import count_fillers, count_words_in_tokens
-from tools.save_cinderella_embeddings import load_embeddings_and_centroid
+from save_cinderella_embeddings import load_embeddings_and_centroid
 import re
-import tools.normalize_utterances as normalize_utterances
+from normalize_utterances import normalize_utterance, normalize_utterances
 from itertools import combinations
 
 class MainConceptAnalyzerNormalize:
     """A class to analyze main concepts and topic switching in text using sentence embeddings."""
     
-    def __init__(self, config_path="config/story_config.yml", embeddings_file="config/cinderella_mainconcept_embeddings.pkl", 
-                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.7871):
+    def __init__(self, config_path="../config/story_config.yml", embeddings_file="../config/cinderella_mainconcept_embeddings.pkl", 
+                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8329):
         """
         Initialize the analyzer with configuration, embeddings, and model.
         
@@ -182,8 +182,10 @@ class MainConceptAnalyzerNormalize:
         Returns:
             bool: True if a topic switch is detected (similarity < avg_concept_sim).
         """
-        emb_prev = self.embedder.encode(prev_utt, convert_to_tensor=True, normalize_embeddings=True)
-        emb_curr = self.embedder.encode(curr_utt, convert_to_tensor=True, normalize_embeddings=True)
+        cleaned_prev_utt = normalize_utterance(prev_utt)
+        cleaned_curr_utt = normalize_utterance(curr_utt)
+        emb_prev = self.embedder.encode(cleaned_prev_utt, convert_to_tensor=True, normalize_embeddings=True)
+        emb_curr = self.embedder.encode(cleaned_curr_utt, convert_to_tensor=True, normalize_embeddings=True)
         similarity = util.cos_sim(emb_prev, emb_curr).item()
         return similarity < 0.2
 

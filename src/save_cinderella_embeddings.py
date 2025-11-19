@@ -6,6 +6,7 @@ import os
 import pickle
 import csv
 from pathlib import Path
+import sys
 from normalize_utterances import normalize_utterances
 import pandas as pd
 from sentence_transformers.util import cos_sim
@@ -72,7 +73,7 @@ def load_embeddings_and_centroid(input_path):
     std_dist = data.get('std_dist', None)  # Default to None if not present
     return concept_embeds, centroid, concepts, avg_concept_sim, cutoff, mean_dist, std_dist
 
-def update_cutoff(input_path, model_name, new_utterances, cutoff_multiplier=1.0, output_path=None, device='cpu', stats_csv="batch_stats.csv"):
+def update_cutoff(input_path, model_name, new_utterances, cutoff_multiplier=1.0, output_path=None, device='cpu', stats_csv="batch_stats_aphasia.csv"):
     """
     Update the cutoff, mean_dist, and std_dist using new utterances against the existing centroid.
     Processes utterances in batches of 20, records per-batch and cumulative stats (for new utterances) to a separate DataFrame/CSV.
@@ -170,6 +171,7 @@ def update_cutoff(input_path, model_name, new_utterances, cutoff_multiplier=1.0,
     if existing_num_utterances == 0:
         combined_mean_dist = overall_mean_dist
         combined_std_dist = overall_std_dist
+        combined_n = new_n  # 
     else:
         old_mean = existing_mean_dist
         old_var = existing_std_dist ** 2
@@ -219,21 +221,22 @@ if __name__ == "__main__":
 
     csv_files = [
         Path("../data/utterances_aphasia_output.csv"),
-        Path("../data/utterances_control_output.csv")
+        Path("../data/utterances_controls_output.csv")
     ]
+
+    all_utterances = []   # ← put it here
+
     for csv_path in csv_files:
         if not csv_path.exists():
             print(f"Error: {csv_path} not found")
             sys.exit(1)
-        
-        print(f"Processing {csv_path.name}...")
-        df = pd.read_csv(csv_path)
 
-        new_utterances = []
+        print(f"Processing {csv_path.name}...")
         with open(csv_path, "r", encoding="utf-8") as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                new_utterances.append(row["utterance"])
+                all_utterances.append(row["utterance"])
+
         
     # Save embeddings if not already saved (initial save won't have cutoff/mean_dist/std_dist)
     if not os.path.exists(EMBEDDINGS_FILE):
@@ -252,9 +255,9 @@ if __name__ == "__main__":
     
     
     # Update cutoff, mean_dist, and std_dist with new utterances (using GPU if available); centroid unchanged
-    # device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     updated_concept_embeds, updated_centroid, updated_concepts, updated_avg_sim, updated_cutoff, updated_mean_dist, updated_std_dist = update_cutoff(
-        EMBEDDINGS_FILE, EMBED_ID, new_utterances, cutoff_multiplier=1.0, device=device
+        EMBEDDINGS_FILE, EMBED_ID, all_utterances, cutoff_multiplier=1.0, device=device
     )
     
     print(f"Updated cutoff: {updated_cutoff:.4f}, mean_dist: {updated_mean_dist:.4f}, std_dist: {updated_std_dist:.4f}")

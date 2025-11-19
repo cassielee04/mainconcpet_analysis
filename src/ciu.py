@@ -9,10 +9,10 @@ from nltk.tokenize import word_tokenize
 nlp = spacy.load("en_core_web_sm")
 
 # Core lexicon from Appendix C of Dalton et al. (2020)
-config_path = Path(__file__).resolve().parent / "config" / "story_config.yml"
+config_path = Path(__file__).resolve().parent / "../config" / "story_config.yml"
 cfg = yaml.safe_load(config_path.read_text(encoding="utf-8"))
 
-def is_similar(word, ciu_vocab, threshold=0.7938):
+def is_similar(word, ciu_vocab, threshold=0.80):
     synsets = wordnet.synsets(word)
     for ciu_word in ciu_vocab:
         ciu_synsets = wordnet.synsets(ciu_word)

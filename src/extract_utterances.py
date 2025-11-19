@@ -6,17 +6,18 @@ import sys
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from test_utt2 import segment_utterances
+from segment_utterance import segment_utterances
 
 # Root directory containing folders starting with Texts_
-root_dir = "../../Data/transcripts/bank/aphasia"
-output_csv = "utterances_aphasia_output.csv"
+root_dir = "../../Data/transcripts/bank/controls"
+output_csv = "utterances_controls_output.csv"
+
 
 all_rows = []
 
 # Walk through folders and find those starting with "Texts_"
 for dirpath, dirnames, filenames in os.walk(root_dir):
-    if os.path.basename(dirpath).startswith("Texts_Patients"):
+    if os.path.basename(dirpath).startswith("Texts_Controls"):
         for filename in filenames:
             if filename.lower().endswith(".txt"):
                 file_path = os.path.join(dirpath, filename)
@@ -58,7 +59,7 @@ with open(output_csv, "a", newline="", encoding="utf-8") as csvfile:
 print(f"Appended {len(all_rows)} utterances to {output_csv}")
 
 
-# def extract_random_utterances_to_csv(input_csv_path, output_csv_path, num_participants=30):
+# def extract_random_utterances_to_csv(input_csv_path, output_csv_path, num_participants=10):
 #     try:
 #         # Read the input CSV file
 #         df = pd.read_csv(input_csv_path)
@@ -89,7 +90,7 @@ print(f"Appended {len(all_rows)} utterances to {output_csv}")
 
 # if __name__ == "__main__":
 #     # Input CSV file (generated from your first script)
-#     input_csv = "utterances_output.csv"
+#     input_csv = "../data/utterances_dementia_output.csv"
 #     # Output CSV file
-#     output_csv = "sanity_check_1.csv"
-#     extract_random_utterances_to_csv(input_csv, output_csv, num_participants=30)
+#     output_csv = "../data/coherence_dementia_sample.csv"
+#     extract_random_utterances_to_csv(input_csv, output_csv, num_participants=10)
