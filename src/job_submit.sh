@@ -14,7 +14,7 @@ nvidia-smi > gpu_info.txt
 
 
 # Your actual command here (runs on GPU node)
-python /projectnb/skiran/Cassie/mainconcpet_analysis/src/save_cinderella_embeddings.py
+python /projectnb/skiran/Cassie/mainconcpet_analysis/src/main.py
 # python /projectnb/skiran/Cassie/Code/test_script.py 
 
 echo "Job completed at $(date)"

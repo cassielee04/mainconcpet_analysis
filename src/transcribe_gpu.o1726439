@@ -1,0 +1,368 @@
+✅ Using GPU: True
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json:   0%|          | 0.00/53.6k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json: 434kB [00:00, 85.1MB/s]                    
+2025-11-20 10:50:52 INFO: Downloaded file to /projectnb/skiran/Cassie/resources/resources.json
+2025-11-20 10:50:52 INFO: Downloading default packages for language: en (English) ...
+2025-11-20 10:50:54 INFO: File exists: /projectnb/skiran/Cassie/resources/en/default.zip
+2025-11-20 10:50:57 INFO: Finished downloading models and saved to /projectnb/skiran/Cassie/resources
+2025-11-20 10:50:58 INFO: Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| mwt       | combined          |
+| pos       | combined_charlm   |
+| lemma     | combined_nocharlm |
+| depparse  | combined_charlm   |
+=================================
+
+2025-11-20 10:50:58 INFO: Using device: cuda
+2025-11-20 10:50:58 INFO: Loading: tokenize
+2025-11-20 10:51:09 INFO: Loading: mwt
+2025-11-20 10:51:09 INFO: Loading: pos
+2025-11-20 10:51:11 INFO: Loading: lemma
+2025-11-20 10:51:11 INFO: Loading: depparse
+2025-11-20 10:51:11 INFO: Done loading processors!
+/projectnb/skiran/Cassie/Code/miniconda3/envs/transcribe/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py:13: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+🔍 Processing files for participant: delaware214-1
+
+🚀 Processing Participant: delaware214-1
+🔍 Processing files for participant: capilouto06a
+
+🚀 Processing Participant: capilouto06a
+🔍 Processing files for participant: delaware208-1
+
+🚀 Processing Participant: delaware208-1
+🔍 Processing files for participant: capilouto01a
+
+🚀 Processing Participant: capilouto01a
+🔍 Processing files for participant: delaware235-1
+
+🚀 Processing Participant: delaware235-1
+🔍 Processing files for participant: delaware04-1
+
+🚀 Processing Participant: delaware04-1
+🔍 Processing files for participant: wright02a
+
+🚀 Processing Participant: wright02a
+🔍 Processing files for participant: delaware87-1
+
+🚀 Processing Participant: delaware87-1
+🔍 Processing files for participant: capilouto08a
+
+🚀 Processing Participant: capilouto08a
+🔍 Processing files for participant: neural38-1
+
+🚀 Processing Participant: neural38-1
+🔍 Processing files for participant: delaware37-1
+
+🚀 Processing Participant: delaware37-1
+🔍 Processing files for participant: delaware221-1
+
+🚀 Processing Participant: delaware221-1
+🔍 Processing files for participant: neural7-1
+
+🚀 Processing Participant: neural7-1
+🔍 Processing files for participant: delaware38-1
+
+🚀 Processing Participant: delaware38-1
+🔍 Processing files for participant: neural24-1
+
+🚀 Processing Participant: neural24-1
+🔍 Processing files for participant: delaware84-1
+
+🚀 Processing Participant: delaware84-1
+🔍 Processing files for participant: capilouto09a
+
+🚀 Processing Participant: capilouto09a
+🔍 Processing files for participant: delaware30-1
+
+🚀 Processing Participant: delaware30-1
+🔍 Processing files for participant: delaware93-1
+
+🚀 Processing Participant: delaware93-1
+🔍 Processing files for participant: neural26-1
+
+🚀 Processing Participant: neural26-1
+🔍 Processing files for participant: wright01a
+
+🚀 Processing Participant: wright01a
+🔍 Processing files for participant: neural28-1
+
+🚀 Processing Participant: neural28-1
+🔍 Processing files for participant: delaware67-1
+
+🚀 Processing Participant: delaware67-1
+🔍 Processing files for participant: delaware90-1
+
+🚀 Processing Participant: delaware90-1
+🔍 Processing files for participant: delaware244-1
+
+🚀 Processing Participant: delaware244-1
+🔍 Processing files for participant: wright07a
+
+🚀 Processing Participant: wright07a
+🔍 Processing files for participant: delaware200-1
+
+🚀 Processing Participant: delaware200-1
+🔍 Processing files for participant: wright03a
+
+🚀 Processing Participant: wright03a
+🔍 Processing files for participant: neural4-1
+
+🚀 Processing Participant: neural4-1
+🔍 Processing files for participant: delaware204-1
+
+🚀 Processing Participant: delaware204-1
+🔍 Processing files for participant: delaware62-1
+
+🚀 Processing Participant: delaware62-1
+🔍 Processing files for participant: wright08a
+
+🚀 Processing Participant: wright08a
+🔍 Processing files for participant: delaware92-1
+
+🚀 Processing Participant: delaware92-1
+🔍 Processing files for participant: neural20-1
+
+🚀 Processing Participant: neural20-1
+🔍 Processing files for participant: wright06a
+
+🚀 Processing Participant: wright06a
+🔍 Processing files for participant: neural39-1
+
+🚀 Processing Participant: neural39-1
+🔍 Processing files for participant: delaware97-1
+
+🚀 Processing Participant: delaware97-1
+🔍 Processing files for participant: delaware271-1
+
+🚀 Processing Participant: delaware271-1
+🔍 Processing files for participant: capilouto10a
+
+🚀 Processing Participant: capilouto10a
+🔍 Processing files for participant: delaware86-1
+
+🚀 Processing Participant: delaware86-1
+🔍 Processing files for participant: neural27-1
+
+🚀 Processing Participant: neural27-1
+🔍 Processing files for participant: delaware276-1
+
+🚀 Processing Participant: delaware276-1
+🔍 Processing files for participant: capilouto04a
+
+🚀 Processing Participant: capilouto04a
+🔍 Processing files for participant: delaware60-1
+
+🚀 Processing Participant: delaware60-1
+🔍 Processing files for participant: neural15-1
+
+🚀 Processing Participant: neural15-1
+🔍 Processing files for participant: delaware201-1
+
+🚀 Processing Participant: delaware201-1
+🔍 Processing files for participant: delaware36-1
+
+🚀 Processing Participant: delaware36-1
+🔍 Processing files for participant: neural18-1
+
+🚀 Processing Participant: neural18-1
+🔍 Processing files for participant: neural62-1
+
+🚀 Processing Participant: neural62-1
+🔍 Processing files for participant: delaware24-1
+
+🚀 Processing Participant: delaware24-1
+🔍 Processing files for participant: wright11a
+
+🚀 Processing Participant: wright11a
+🔍 Processing files for participant: delaware234-1
+
+🚀 Processing Participant: delaware234-1
+🔍 Processing files for participant: wright10a
+
+🚀 Processing Participant: wright10a
+🔍 Processing files for participant: delaware13-1
+
+🚀 Processing Participant: delaware13-1
+🔍 Processing files for participant: delaware96-1
+
+🚀 Processing Participant: delaware96-1
+🔍 Processing files for participant: delaware46-1
+
+🚀 Processing Participant: delaware46-1
+🔍 Processing files for participant: capilouto02a
+
+🚀 Processing Participant: capilouto02a
+🔍 Processing files for participant: neural17-1
+
+🚀 Processing Participant: neural17-1
+🔍 Processing files for participant: delaware99-1
+
+🚀 Processing Participant: delaware99-1
+🔍 Processing files for participant: delaware70-1
+
+🚀 Processing Participant: delaware70-1
+🔍 Processing files for participant: delaware101-1
+
+🚀 Processing Participant: delaware101-1
+🔍 Processing files for participant: delaware229-1
+
+🚀 Processing Participant: delaware229-1
+🔍 Processing files for participant: delaware48-1
+
+🚀 Processing Participant: delaware48-1
+🔍 Processing files for participant: delaware05-1
+
+🚀 Processing Participant: delaware05-1
+🔍 Processing files for participant: wright09a
+
+🚀 Processing Participant: wright09a
+🔍 Processing files for participant: neural5-1
+
+🚀 Processing Participant: neural5-1
+🔍 Processing files for participant: delaware29-1
+
+🚀 Processing Participant: delaware29-1
+🔍 Processing files for participant: delaware44-1
+
+🚀 Processing Participant: delaware44-1
+🔍 Processing files for participant: delaware02-1
+
+🚀 Processing Participant: delaware02-1
+🔍 Processing files for participant: delaware279-1
+
+🚀 Processing Participant: delaware279-1
+🔍 Processing files for participant: neural19-1
+
+🚀 Processing Participant: neural19-1
+🔍 Processing files for participant: neural40-1
+
+🚀 Processing Participant: neural40-1
+🔍 Processing files for participant: neural2-1
+
+🚀 Processing Participant: neural2-1
+🔍 Processing files for participant: capilouto03a
+
+🚀 Processing Participant: capilouto03a
+🔍 Processing files for participant: delaware07-1
+
+🚀 Processing Participant: delaware07-1
+🔍 Processing files for participant: delaware278-1
+
+🚀 Processing Participant: delaware278-1
+🔍 Processing files for participant: delaware94-1
+
+🚀 Processing Participant: delaware94-1
+🔍 Processing files for participant: wright05a
+
+🚀 Processing Participant: wright05a
+🔍 Processing files for participant: delaware03-1
+
+🚀 Processing Participant: delaware03-1
+🔍 Processing files for participant: neural8-1
+
+🚀 Processing Participant: neural8-1
+🔍 Processing files for participant: delaware225-1
+
+🚀 Processing Participant: delaware225-1
+🔍 Processing files for participant: delaware42-1
+
+🚀 Processing Participant: delaware42-1
+🔍 Processing files for participant: delaware65-1
+
+🚀 Processing Participant: delaware65-1
+🔍 Processing files for participant: capilouto07a
+
+🚀 Processing Participant: capilouto07a
+🔍 Processing files for participant: delaware218-1
+
+🚀 Processing Participant: delaware218-1
+🔍 Processing files for participant: neural12-1
+
+🚀 Processing Participant: neural12-1
+🔍 Processing files for participant: capilouto13a
+
+🚀 Processing Participant: capilouto13a
+🔍 Processing files for participant: delaware08-1
+
+🚀 Processing Participant: delaware08-1
+🔍 Processing files for participant: delaware226-1
+
+🚀 Processing Participant: delaware226-1
+🔍 Processing files for participant: delaware77-1
+
+🚀 Processing Participant: delaware77-1
+🔍 Processing files for participant: neural29-1
+
+🚀 Processing Participant: neural29-1
+🔍 Processing files for participant: neural11-1
+
+🚀 Processing Participant: neural11-1
+🔍 Processing files for participant: delaware12-1
+
+🚀 Processing Participant: delaware12-1
+🔍 Processing files for participant: delaware270-1
+
+🚀 Processing Participant: delaware270-1
+🔍 Processing files for participant: wright04a
+
+🚀 Processing Participant: wright04a
+🔍 Processing files for participant: delaware39-1
+
+🚀 Processing Participant: delaware39-1
+🔍 Processing files for participant: capilouto11a
+
+🚀 Processing Participant: capilouto11a
+🔍 Processing files for participant: delaware45-1
+
+🚀 Processing Participant: delaware45-1
+🔍 Processing files for participant: neural43-1
+
+🚀 Processing Participant: neural43-1
+🔍 Processing files for participant: delaware98-1
+
+🚀 Processing Participant: delaware98-1
+🔍 Processing files for participant: delaware228-1
+
+🚀 Processing Participant: delaware228-1
+🔍 Processing files for participant: delaware227-1
+
+🚀 Processing Participant: delaware227-1
+🔍 Processing files for participant: delaware25-1
+
+🚀 Processing Participant: delaware25-1
+🔍 Processing files for participant: delaware81-1
+
+🚀 Processing Participant: delaware81-1
+🔍 Processing files for participant: neural14-1
+
+🚀 Processing Participant: neural14-1
+🔍 Processing files for participant: neural6-1
+
+🚀 Processing Participant: neural6-1
+🔍 Processing files for participant: delaware203-1
+
+🚀 Processing Participant: delaware203-1
+🔍 Processing files for participant: delaware35-1
+
+🚀 Processing Participant: delaware35-1
+🔍 Processing files for participant: delaware233-1
+
+🚀 Processing Participant: delaware233-1
+🔍 Processing files for participant: delaware209-1
+
+🚀 Processing Participant: delaware209-1
+🔍 Processing files for participant: delaware224-1
+
+🚀 Processing Participant: delaware224-1
+🔍 Processing files for participant: delaware220-1
+
+🚀 Processing Participant: delaware220-1
+🔍 Processing files for participant: capilouto12a
+
+🚀 Processing Participant: capilouto12a
+
+ Merged features saved to: dementia_controls_mainconcept_features_qsub.csv
+Job completed at Thu Nov 20 12:34:11 EST 2025

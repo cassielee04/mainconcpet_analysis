@@ -99,35 +99,35 @@ def plot_semantic_projection(main_concepts, utterances, concept_embeds, centroid
         centroid_pt = X_2d[-1]
 
         # Plot
-        # plt.figure(figsize=(10, 8))
-        # plt.title(f"Semantic Projection with UMAP (Utterances {batch_start}-{batch_end})")
-        # plt.xlabel("UMAP 1")
-        # plt.ylabel("UMAP 2")
+        plt.figure(figsize=(10, 8))
+        plt.title(f"Semantic Projection with UMAP (Utterances {batch_start}-{batch_end})")
+        plt.xlabel("UMAP 1")
+        plt.ylabel("UMAP 2")
 
-        # # Plot concept points with text labels
-        # for i, (x, y) in enumerate(concept_pts):
-        #     short_label = main_concepts[i][:40] + "..." if len(main_concepts[i]) > 40 else main_concepts[i]
-        #     plt.scatter(x, y, color='gray', s=60, alpha=0.7, label='Main Concepts' if i == 0 else "")
-        #     plt.text(x, y, short_label, fontsize=7, ha='left', va='center', color='dimgray')
+        # Plot concept points with text labels
+        for i, (x, y) in enumerate(concept_pts):
+            short_label = main_concepts[i][:40] + "..." if len(main_concepts[i]) > 40 else main_concepts[i]
+            plt.scatter(x, y, color='gray', s=60, alpha=0.7, label='Main Concepts' if i == 0 else "")
+            plt.text(x, y, short_label, fontsize=7, ha='left', va='center', color='dimgray')
 
-        # # Plot utterance points without text labels
-        # for i, (x, y) in enumerate(utterance_pts):
-        #     plt.scatter(x, y, color=colors[i], s=80, label=labels[i] if i == labels.index(labels[i]) else "")
+        # Plot utterance points without text labels
+        for i, (x, y) in enumerate(utterance_pts):
+            plt.scatter(x, y, color=colors[i], s=80, label=labels[i] if i == labels.index(labels[i]) else "")
 
-        # # Plot centroid
-        # plt.scatter(centroid_pt[0], centroid_pt[1], color='black', marker='X', s=100, label='Centroid')
+        # Plot centroid
+        plt.scatter(centroid_pt[0], centroid_pt[1], color='black', marker='X', s=100, label='Centroid')
 
-        # # Finalize plot
-        # plt.legend()
-        # plt.grid(True)
-        # plt.tight_layout()
+        # Finalize plot
+        plt.legend()
+        plt.grid(True)
+        plt.tight_layout()
 
-        # # Save the plot to a file
-        # plt.savefig(output_file, dpi=300, bbox_inches='tight')
-        # print(f"Plot saved to {output_file}")
+        # Save the plot to a file
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        print(f"Plot saved to {output_file}")
 
-        # # Close the plot to free memory
-        # plt.close()
+        # Close the plot to free memory
+        plt.close()
 
     except Exception as e:
         print(f"Error during plotting: {e}")

@@ -16,7 +16,7 @@ class MainConceptAnalyzerNormalize:
     """A class to analyze main concepts and topic switching in text using sentence embeddings."""
     
     def __init__(self, config_path="../config/story_config.yml", embeddings_file="../config/cinderella_mainconcept_embeddings.pkl", 
-                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8329):
+                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8289):
         """
         Initialize the analyzer with configuration, embeddings, and model.
         
