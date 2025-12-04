@@ -93,7 +93,7 @@ def process_file(json_path):
 
 # Main routine
 def main():
-    folder_path = os.path.abspath("../../Data/transcripts/bank/aphasia/aws/cinderella")
+    folder_path = os.path.abspath("../../Data/transcripts/bank/dementia/aws/cinderella")
     all_dfs = []
 
     for idx, text_file in enumerate[str](glob(os.path.join(folder_path, "*_transcribed.json"))):
@@ -102,7 +102,7 @@ def main():
         # if filename == "wright03a_cinderella_transcribed.json":
         base = os.path.splitext(os.path.basename(text_file))[0]
         participant_id = base.split('_')[0]
-        json_path = f"../../Data/transcripts/bank/aphasia/aws/cinderella/{base}.json"
+        json_path = f"../../Data/transcripts/bank/dementia/aws/cinderella/{base}.json"
         print(f"🔍 Processing files for participant: {participant_id}")
         print(f"\n🚀 Processing Participant: {participant_id}")
 
@@ -112,8 +112,8 @@ def main():
     # Merge all participant data into one CSV
     if all_dfs:
         merged_df = pd.concat(all_dfs, ignore_index=True)
-        merged_df.to_csv("../data/classification/aphasia_mainconcept_features_qsub.csv", index=False)
-        print("\n Merged features saved to: aphasia_mainconcept_features_qsub.csv")
+        merged_df.to_csv("../data/classification/dementia_mainconcept_features_qsub.csv", index=False)
+        print("\n Merged features saved to: dementia_mainconcept_features_qsub.csv")
 
 if __name__ == '__main__':
     main()

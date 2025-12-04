@@ -1,57 +1,77 @@
-import os
-import re
-import csv
-import pandas as pd
-import numpy as np
+#!/usr/bin/env python
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-from test_utt2 import segment_utterances
-from tools.normalize_utterances import normalize_utterances
 
-output_csv = "data/test_utterances.csv"
-true_file = "data/test_utterances_outcome.xlsx"
+# ──────────────────────────────────────────────────────────────
+# 1. PROJECT ROOT & PYTHON PATH (makes src/ importable)
+# ──────────────────────────────────────────────────────────────
+PROJECT_ROOT = Path(__file__).resolve().parent.parent          # /projectnb/skiran/Cassie/mainconcpet_analysis
+sys.path.insert(0, str(PROJECT_ROOT))                          # ← this lets you do "from src.xxx import ..."
 
-# Load Excel file
-df = pd.read_excel("data/Utterances_index.xlsx")  # Adjusted path for test folder
+# ──────────────────────────────────────────────────────────────
+# 2. IMPORTS
+# ──────────────────────────────────────────────────────────────
+import pandas as pd
+from src.segment_utterance import segment_utterances
+from src.normalize_utterances import normalize_utterances
+from src.mainconcept_normalize import MainConceptAnalyzerNormalize
 
-# Extract only utterance column
-utterances_df = df[["Utterance"]]
-utterances_list = utterances_df["Utterance"].dropna().astype(str)
-cleaned_utterances = " ".join( 
-    re.sub(r'^\d+,|"{2,}|",?|,', '', utt).strip().lower() 
-    for utt in utterances_list
+# ──────────────────────────────────────────────────────────────
+# 3. PATHS (all based on PROJECT_ROOT → never break again)
+# ──────────────────────────────────────────────────────────────
+DATA_DIR         = PROJECT_ROOT / "data" / "data"
+CONFIG_DIR       = PROJECT_ROOT / "config"
+
+# Input file (add .csv if missing)
+CONTROLS_CSV     = DATA_DIR / "Matching Concept Check - Dementia - All.csv"
+
+# Config & precomputed embeddings
+CONFIG_PATH      = CONFIG_DIR / "story_config.yml"
+EMBEDDINGS_PATH  = CONFIG_DIR / "cinderella_mainconcept_embeddings.pkl"
+
+# Output
+OUTPUT_CSV       = DATA_DIR / "matching_mainconcept_dementia_predicted_output.csv"
+
+# ──────────────────────────────────────────────────────────────
+# 4. LOAD DATA
+# ──────────────────────────────────────────────────────────────
+if not CONTROLS_CSV.exists():
+    raise FileNotFoundError(f"File not found:\n{CONTROLS_CSV}\nCheck the exact filename with: ls {DATA_DIR}")
+
+df = pd.read_csv(CONTROLS_CSV)
+
+# Adjust column name if needed (common variations)
+utterance_col = None
+for col in ["utterances", "Utterance", "utterance", "text", "Transcript"]:
+    if col in df.columns:
+        utterance_col = col
+        break
+if utterance_col is None:
+    raise KeyError(f"Could not find utterance column. Available: {list(df.columns)}")
+
+utterances_list = df[utterance_col].dropna().astype(str).tolist()
+
+# ──────────────────────────────────────────────────────────────
+# 5. PROCESS
+# ──────────────────────────────────────────────────────────────
+normalized_segmented_utterances = normalize_utterances(utterances_list)
+
+analyzer = MainConceptAnalyzerNormalize(
+    config_path=str(CONFIG_PATH),
+    embeddings_file=str(EMBEDDINGS_PATH),
 )
 
-segmented_utterances = segment_utterances(cleaned_utterances)
+mainconcept_df = analyzer.get_mainconcept_match(
+    utterances_list,
+    normalized_segmented_utterances,
+    return_score=True
+)
 
-# Then normalize each segment individually
-normalized_segmented_utterances = normalize_utterances(segmented_utterances)
+# ──────────────────────────────────────────────────────────────
+# 6. SAVE
+# ──────────────────────────────────────────────────────────────
+OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)   # create folder if needed
+mainconcept_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
 
-
-#Save to CSV with index
-with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(["index", "utterance"])  # Header row
-    for i, utt in enumerate(segmented_utterances, start=1):
-        utt = utt.strip()
-        if utt:  # Skip empty
-            writer.writerow([i, utt])
-
-print(f"Saved {len(segmented_utterances)} utterances to {output_csv}")
-
-# from mainconcept import MainConceptAnalyzer
-# from mainconcept_normalize import MainConceptAnalyzerNormalize
-
-# PROJECT_ROOT = Path(__file__).resolve().parents[1]
-# CONFIG_PATH = PROJECT_ROOT / "config/story_config.yml"
-# EMBEDDINGS_PATH = PROJECT_ROOT / "config/cinderella_mainconcept_embeddings.pkl"
-
-# analyzer = MainConceptAnalyzerNormalize(
-#     config_path=str(CONFIG_PATH),
-#     embeddings_file=str(EMBEDDINGS_PATH),
-# )
-# mainconcept_df = analyzer.get_mainconcept_match(segmented_utterances, normalized_segmented_utterances,  return_score=True)
-# mainconcept_df.to_csv(PROJECT_ROOT / "test/data/test_mainconcept_normalize_predicted_output.csv", index=False, encoding="utf-8")
-
-# print("✅ DataFrame saved to test_mainconcept_normalize_predicted_output.csv")
+print(f"DataFrame saved to:\n{OUTPUT_CSV}")
+print(f"Shape: {mainconcept_df.shape}")

@@ -22,7 +22,7 @@ def load_text_from_aws_json(filepath):
 
 
 def clean_text(text):
-    # Step 1: Remove filler words (uh, um...) and preserve punctuation
+    # Step 1: Remove filler words (uh, um...) and remove punctuation
     text = re.sub(r'\s?\b(uh|um|er|ah|hm|mm)\b(?=[.,!?;:])', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\b(uh|um|er|ah|hm|mm)\b', '', text, flags=re.IGNORECASE)
 
@@ -38,4 +38,41 @@ def clean_text(text):
 
     # Step 5: Strip leading/trailing whitespace
     return text.strip()
+
+# def clean_text(text):
+#     # ============================
+#     # 1. Remove fillers + neighbor punctuation
+#     #    Examples removed:
+#     #    "uh,"  "Um."  "ah?"  "mm;"  "uh -"
+#     # ============================
+#     filler_pattern = r'\b(uh|um|er|ah|hm|mm)\b[\s]*[.,!?;:-]*'
+#     text = re.sub(filler_pattern, '', text, flags=re.IGNORECASE)
+
+#     # ============================
+#     # 2. Remove leftover isolated filler tokens
+#     # ============================
+#     text = re.sub(r'\b(uh|um|er|ah|hm|mm)\b', '', text, flags=re.IGNORECASE)
+
+#     # ============================
+#     # 3. Remove space before punctuation
+#     #    e.g., " ," → ","
+#     # ============================
+#     text = re.sub(r'\s+([.,!?;:])', r'\1', text)
+
+#     # ============================
+#     # 4. Fix repeated or mixed punctuation
+#     # ============================
+#     text = re.sub(r'([.,!?;:])([.,!?;:])', r'\2', text)  # keep second
+#     text = re.sub(r'([.,!?;:])\1+', r'\1', text)         # collapse repeats
+
+#     # ============================
+#     # 5. Collapse extra spaces
+#     # ============================
+#     text = re.sub(r'\s{2,}', ' ', text)
+
+#     # ============================
+#     # 6. Trim whitespace
+#     # ============================
+#     return text.strip()
+
 

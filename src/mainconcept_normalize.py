@@ -4,19 +4,19 @@ import torch
 import pandas as pd
 import yaml
 from sentence_transformers import SentenceTransformer, util
-from ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns
-from segment_utterance import segment_utterances
-from fillers import count_fillers, count_words_in_tokens
-from save_cinderella_embeddings import load_embeddings_and_centroid
+from .ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns
+from .segment_utterance import segment_utterances
+from .fillers import count_fillers, count_words_in_tokens
+from .save_cinderella_embeddings import load_embeddings_and_centroid
 import re
-from normalize_utterances import normalize_utterance, normalize_utterances
+from .normalize_utterances import normalize_utterance, normalize_utterances
 from itertools import combinations
 
 class MainConceptAnalyzerNormalize:
     """A class to analyze main concepts and topic switching in text using sentence embeddings."""
     
     def __init__(self, config_path="../config/story_config.yml", embeddings_file="../config/cinderella_mainconcept_embeddings.pkl", 
-                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8289):
+                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8047):
         """
         Initialize the analyzer with configuration, embeddings, and model.
         

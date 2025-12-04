@@ -1,5 +1,8 @@
 import re
+# from .features import get_stanza_pipeline
+from preprocessing import clean_text
 from features import get_stanza_pipeline
+from nouns_verbs_per_utterance import calculate_nouns_per_utterance, calculate_verbs_per_utterance
 
 # Initialize Stanza pipeline for English
 # stanza.download('en')
@@ -150,14 +153,16 @@ def segment_utterances(text):
     
     return final_utterances
 # Sample dialogue
-# dialogue = "There were 3 sisters, wasn't? Yeah, uh, 3 sisters and. Cinderella was uh. Cinderella was, she had uh she washed type of thing too and uh. I know what I wanna say, but I mean. Oh I know. She was invited to uh. To the ball type of thing too and uh Cinderella was and she had to go uh. Be there at 12 o'clock um I I. At 12 o'clock and uh. She had to be there at. She had to go, she had to, she had to go at 3 at 1 o'clock at 12 o'clock. And uh. Her, her godmother, uh. She had pumpkin. Her chariot was a pumpkin and then uh her her grandmother. Her godmother, uh, snapped or whatever. And uh she she uh had a chariot and she lost her slipper and then uh. He danced with her type of thing too and uh she lost her slipper and uh. He was um. I can't remember."
+dialogue = "Once a She was a young woman. Who lived with a wicked stepmother and her two daughters, Funilla and somebody can't remember the other name. Um, She was delegated to a room all by herself. She was not, I'm just remembering this from what I'm reading many years ago. Um, and she was not included in any family activities except to clean, wash, iron, do lots of chores. Um, the girls could not stand her. Uh, the mother could not stand her, but they got, they got a lot of work out of her. Um, In the neighborhood, if you will, there was a a a a castle where a prince lived, and he was in search of the love of his life. And I'm skipping a lot of things I realized, um, but anyway, he went to a ball and he saw this young woman who was absolutely lovely, and at 12 o'clock she disappeared and she ran down the steps to her carriage, which had been a pumpkin, if I recall correctly. And um in order to find him because he realized she was the one. And she had dropped her glass slipper, and he had that, and that was the criteria for finding her, so he went from town to town, house to house, and when he got to the wicked stepmother's house. It did not fit Pruella and her sister. Although they did everything they could to squeeze their fat feet into the shoe, um, but it did fit Cinderella's foot. And eventually they lived happily and brand."
+cleaned_dialogue = clean_text(dialogue)
+# Segment the dialogue
+segmented = segment_utterances(cleaned_dialogue)
 
-# # Segment the dialogue
-# segmented = segment_utterances(dialogue)
-
-# print("Segmented Utterances:", len(segmented))
-
+print("Segmented Utterances:", len(segmented))
+print("-------------------------")
+print("verbs per utterance:", calculate_verbs_per_utterance(segmented, nlp))
 
 # Output in CHAT-like format
-# for i, utterance in enumerate(segmented, 1):
-#     print(f"*PAR: {utterance} %utt{i}")
+for i, utterance in enumerate(segmented, 1):
+    # print(f"*PAR: {utterance} %utt{i}")
+    print(i, " ", utterance)
