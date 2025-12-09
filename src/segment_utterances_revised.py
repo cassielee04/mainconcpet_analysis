@@ -2,7 +2,6 @@ import re
 # from .features import get_stanza_pipeline
 from preprocessing import clean_text
 from features import get_stanza_pipeline
-from nouns_verbs_per_utterance import calculate_nouns_per_utterance, calculate_verbs_per_utterance
 
 # Initialize Stanza pipeline for English
 # stanza.download('en')
@@ -241,14 +240,13 @@ def segment_utterances(text: str):
 
     return final_utterances
 # Sample dialogue
-dialogue = "Once upon a time, there was a man who lost his wife and had decided to bring in a new wife who happened to have two children of her own. When they were still small, he introduced his daughter to his new wife, who would then be her stepmother and her two new stepsisters. As they aged and grew up, Cinderella became less of a daughter and more of just a maid working for. The stepmother and the stepdaughters. Apparently papa had died and could no longer See to the welfare of his own child. As they continued to Move on in life The stepmother. Kept Cinderella. In the dark, or in the basement, or at least not in keeping with the rest of the household. Cinderella made friends with the mice and the dogs and the horses that were part of her milieu. And had become her real family. Even the birds that sang to her would come in and keep her company. One day The king decided his son needed to marry and so proclaimed that the prince would have to find a wife and would throw a major Ball in order for the prince to find an acceptable. Me. Everybody in the Kingdom was sent an invitation to this ball. But Cinderella's stepmother. was not going to allow Cinderella even a dress in which to accompany the rest of the family. Cinderella found a book in a chest apparently left by her parents, and was able to make a dress with the help of her animal friends. And put together a lovely gown, and when it was time to leave for the ball, her stepsisters and stepmother. tore the dress apart and refused to allow Cinderella to accompany them. But off they went anyway. In her Despair Cinderella is introduced to her fairy godmother, someone that she had never known existed before. And was given an opportunity to attend the ball in a beautiful gown. Pulled by Marvelous white horses, which were enchanted mice who were her friends, and a pumpkin that was made into a beautiful carriage, and a dog that was made into a footman so that she could. Arrive at the ball in true style. Once at the bally. was the prince's only Attraction. He paid no attention to anyone but Cinderella, but at the stroke of midnight, as her Godmother had said, She had to leave the ball so as not to Disturbed the enchantment under the eyes of any onlookers. She arrived back home just in time, but she had lost her glass slipper on the steps of the palace. In the next days. The prince, having found the shoe. Went looking for the person whose foot would fit that shoe, and after having traversed the entire kingdom looking for the one woman whose foot would fit in that shoe, he comes across the stepsisters and stepmother. And at last, Cinderella is allowed to try on the shoe, which fits perfectly. And leads to happily ever after."
+dialogue = "As I remember the story, Cinderella came to live with the, the, the mean old lady and her two daughters, and um she, they, she became the housemaid, if you will, because they, for whatever reason, they didn't want her around. And um she cleaned the house and did all the stuff, and one day found out about a ball that was happening, and wished that she could go, but um she wasn't terribly Welcome there. So she, um, I don't even remember the story. She finally did get to go. Her fairy godmother came by, tapped her on the head, she turned her into a little princess, and she went to the, to the ball, met the, the prince, um, realized that she was going to turn back at midnight, so she ran out, dropped her slipper, uh, her was in the silver slipper, but she dropped her slipper, and the prince was so enamored with her, he sent people out to find her, they found her. He tried on the shoe. First, the, the bad sisters wanted the shoe, none of them fit. She tried it on, it fit. He fell in love and they lived happily ever after. That's the short version."
 cleaned_dialogue = clean_text(dialogue)
 # Segment the dialogue
 segmented = segment_utterances(cleaned_dialogue)
 
 print("Segmented Utterances:", len(segmented))
 print("-------------------------")
-print("verbs per utterance:", calculate_verbs_per_utterance(segmented, nlp))
 
 # Output in CHAT-like format
 for i, utterance in enumerate(segmented, 1):

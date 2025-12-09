@@ -1,22 +1,35 @@
 from pathlib import Path
 import sys
+import os
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+from src.normalize_utterances import normalize_utterance, normalize_utterances
+from src.ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns  # Adjust to relative if needed: from .ciu import ...
+from src.features import get_stanza_pipeline
+from src.segment_utterance import segment_utterances
+from src.fillers import count_fillers, count_words_in_tokens
+from src.save_cinderella_embeddings import load_embeddings_and_centroid
 import torch
 import pandas as pd
 import yaml
 from sentence_transformers import SentenceTransformer, util
-from .ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns
-from .segment_utterance import segment_utterances
-from .fillers import count_fillers, count_words_in_tokens
-from .save_cinderella_embeddings import load_embeddings_and_centroid
+# from .ciu import calculate_cinderella_ciu, count_ciu_nouns, get_ciu_nouns
+# from .segment_utterance import segment_utterances
+# from .fillers import count_fillers, count_words_in_tokens
+# from .save_cinderella_embeddings import load_embeddings_and_centroid
 import re
-from .normalize_utterances import normalize_utterance, normalize_utterances
+# from .normalize_utterances import normalize_utterance, normalize_utterances
 from itertools import combinations
 
 class MainConceptAnalyzerNormalize:
+    
     """A class to analyze main concepts and topic switching in text using sentence embeddings."""
     
     def __init__(self, config_path="../config/story_config.yml", embeddings_file="../config/cinderella_mainconcept_embeddings.pkl", 
-                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8047):
+                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8049):
         """
         Initialize the analyzer with configuration, embeddings, and model.
         
@@ -83,8 +96,8 @@ class MainConceptAnalyzerNormalize:
             utterance_lower = normalize_utterances[i].lower()
             utterance_tokens = [re.sub(r'[^\w\s]', '', token) for token in utterance_lower.split()]
             utterance_tokens = [token for token in utterance_tokens if token]
+            num_ciu_nouns = count_ciu_nouns('cinderella', normalize_utterances[i])[0]
             if is_match:
-                num_ciu_nouns = count_ciu_nouns('cinderella', normalize_utterances[i])[0]
                 if len(utterance_tokens) <= 3:
                     if num_ciu_nouns <= 0:
                         is_match = False
@@ -96,12 +109,12 @@ class MainConceptAnalyzerNormalize:
                     matched_concept = self.concepts[best_idx]
                     is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
                     self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
-            else:
-                if any(token in self.ciu_nouns for token in utterance_tokens):
-                    is_match = True
-                    matched_concept = self.concepts[best_idx]
-                    is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
-                    self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
+            # else:
+            #     if any(token in self.ciu_nouns for token in utterance_tokens) or num_ciu_nouns > 0:
+            #         is_match = True
+            #         matched_concept = self.concepts[best_idx]
+            #         is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
+            #         self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
 
             results.append({
                 "utterance": utterances[i],
@@ -242,16 +255,34 @@ class MainConceptAnalyzerNormalize:
 
 
 # Example usage
-# if __name__ == "__main__":
-#     analyzer = MainConceptAnalyzerNormalize()
-#     text = ("I can't remember. Um There's an announcement. Except Cinderella. I can fix it. Um prepares. However she has to be home. Because the dream.")
+if __name__ == "__main__":
+    analyzer = MainConceptAnalyzerNormalize()
+    # text = ("He tries it on their feet and their feet are way too big,.")
+    # utterances = read.csv("../data/data/matching_mainconcept_dementia_predicted_output.csv")["utterance"].tolist()
     
-#     test_utterances = segment_utterances(text)
-#     df = analyzer.get_mainconcept_match(test_utterances, return_score=True)
-#     score = analyzer.is_topic_switching(test_utterances[0], test_utterances[1])
-    
-#     print(df)
-#     print(f"Average concept similarity: {analyzer.avg_concept_sim}")
-#     print(f"Topic switch score: {score}")
-#     print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
-#     print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")
+    # test_utterances = segment_utterances(utterances)
+    # normalize_utterances = normalize_utterances(test_utterances)
+    # df = analyzer.get_mainconcept_match(test_utterances,normalize_utterances, return_score=True)
+
+    df_csv = pd.read_csv("../data/data/Matching Concept Check - Controls - All.csv")
+    utterances = df_csv["utterances"].dropna().astype(str).tolist()
+
+    # --- Segment the utterances ---
+    test_utterances = utterances
+
+    # --- Normalize utterances ---
+    normalized_utts = normalize_utterances(test_utterances)
+
+    # --- Get Main Concept matching results ---
+    df = analyzer.get_mainconcept_match(
+        test_utterances,
+        normalized_utts,
+        return_score=True
+    )
+
+    df.to_csv("../data/data/matching_mainconcept_dementia_controls_predicted_output.csv", index=False, encoding="utf-8")
+    # print(df.to_string(index=False))
+    # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
+    # print(f"Topic switch score: {score}")
+    # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
+    # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")

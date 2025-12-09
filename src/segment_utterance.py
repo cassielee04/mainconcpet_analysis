@@ -1,8 +1,8 @@
 import re
-# from .features import get_stanza_pipeline
-from preprocessing import clean_text
-from features import get_stanza_pipeline
-from nouns_verbs_per_utterance import calculate_nouns_per_utterance, calculate_verbs_per_utterance
+from .features import get_stanza_pipeline
+# from preprocessing import clean_text
+# from features import get_stanza_pipeline
+# from nouns_verbs_per_utterance import calculate_nouns_per_utterance, calculate_verbs_per_utterance
 
 # Initialize Stanza pipeline for English
 # stanza.download('en')
@@ -153,16 +153,18 @@ def segment_utterances(text):
     
     return final_utterances
 # Sample dialogue
-dialogue = "Once a She was a young woman. Who lived with a wicked stepmother and her two daughters, Funilla and somebody can't remember the other name. Um, She was delegated to a room all by herself. She was not, I'm just remembering this from what I'm reading many years ago. Um, and she was not included in any family activities except to clean, wash, iron, do lots of chores. Um, the girls could not stand her. Uh, the mother could not stand her, but they got, they got a lot of work out of her. Um, In the neighborhood, if you will, there was a a a a castle where a prince lived, and he was in search of the love of his life. And I'm skipping a lot of things I realized, um, but anyway, he went to a ball and he saw this young woman who was absolutely lovely, and at 12 o'clock she disappeared and she ran down the steps to her carriage, which had been a pumpkin, if I recall correctly. And um in order to find him because he realized she was the one. And she had dropped her glass slipper, and he had that, and that was the criteria for finding her, so he went from town to town, house to house, and when he got to the wicked stepmother's house. It did not fit Pruella and her sister. Although they did everything they could to squeeze their fat feet into the shoe, um, but it did fit Cinderella's foot. And eventually they lived happily and brand."
-cleaned_dialogue = clean_text(dialogue)
-# Segment the dialogue
-segmented = segment_utterances(cleaned_dialogue)
+# dialogue = "All right, Cinderella's father. Uh, brings into his home and Cinderella's home, a woman and her two ugly daughters, and she becomes stepmother to Cinderella. And she favors her own daughters over Cinderella. Uh, and As they, are living together, uh. They find out that the king is going to give a ball. Uh, for the prince. And Cinderella looks through a trunk. Finding some clothing. But. She's not allowed to go to the ball, so the other two ugly stepdaughters. Uh, dress up in the pretty clothes that they find, and Cinderella needs to go out to the. Stable to take care of the animals and of course do all the other work around the house. And Cinderella is very disappointed because she won't be allowed to go to the ball, but. Um, The other stepdaughters do, and while they are gone. The fairy godmother and all the mice come in to talk to Cinderella and dress her in the fairy godmother, of course, dresses her in finery and changes uh the pumpkin into a fancy coach. And Cinderella goes to the ball and dances with the prince, but when the clock strikes 12, Cinderella has to rush out and down the palace steps to go away from the ball. And the Men who work for the king then take the glass slipper that Cinderella had lost on her flight out of the palace to see who it will fit, and when they come to Cinderella's house. It fits Cinderella, and therefore Cinderella is happily married to the prince."
 
-print("Segmented Utterances:", len(segmented))
-print("-------------------------")
-print("verbs per utterance:", calculate_verbs_per_utterance(segmented, nlp))
+# cleaned_dialogue = clean_text(dialogue)
+# print("Cleaned Dialogue:", cleaned_dialogue)
+# # Segment the dialogue
+# segmented = segment_utterances(cleaned_dialogue)
+# print("-------------------------")
+# print("Segmented Utterances:", len(segmented))
+# print("-------------------------")
+# # print("verbs per utterance:", calculate_verbs_per_utterance(segmented, nlp))
 
-# Output in CHAT-like format
-for i, utterance in enumerate(segmented, 1):
-    # print(f"*PAR: {utterance} %utt{i}")
-    print(i, " ", utterance)
+# # Output in CHAT-like format
+# for i, utterance in enumerate(segmented, 1):
+#     # print(f"*PAR: {utterance} %utt{i}")
+#     print(i, " ", utterance)

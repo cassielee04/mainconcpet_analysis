@@ -14,7 +14,8 @@ nvidia-smi > gpu_info.txt
 
 
 # Your actual command here (runs on GPU node)
-python /projectnb/skiran/Cassie/mainconcpet_analysis/src/main.py
-# python /projectnb/skiran/Cassie/Code/test_script.py 
+#python /projectnb/skiran/Cassie/mainconcpet_analysis/src/main.py
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+python /projectnb/skiran/Cassie/mainconcpet_analysis/src/mainconcept_normalize.py
 
 echo "Job completed at $(date)"
