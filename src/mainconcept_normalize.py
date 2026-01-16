@@ -29,7 +29,7 @@ class MainConceptAnalyzerNormalize:
     """A class to analyze main concepts and topic switching in text using sentence embeddings."""
     
     def __init__(self, config_path="../config/story_config.yml", embeddings_file="../config/cinderella_mainconcept_embeddings.pkl", 
-                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8049):
+                 embed_id="sentence-transformers/all-mpnet-base-v2", global_cutoff=0.8289):
         """
         Initialize the analyzer with configuration, embeddings, and model.
         
@@ -79,12 +79,17 @@ class MainConceptAnalyzerNormalize:
         """
         if isinstance(normalize_utterances, str):
             normalize_utterances = [normalize_utterances]
-        
         # Encode utterance embeddings
         utter_embeds = self.embedder.encode(normalize_utterances, convert_to_tensor=True, normalize_embeddings=True)
         
         results = []
         for i, emb in enumerate(utter_embeds):
+            # utterance = normalized_utterances[i]  # or however you're indexing the original text
+            # if not utterance.strip():
+            #     similarity = None  # or assign a default, e.g., 0.0, or skip it entirely
+            #     is_match = False
+            #     print(f"Skipping empty utterance at index {i}")
+            #     continue  # Optional: skip adding it to result lists
             dist = 1 - util.cos_sim(emb.unsqueeze(0), self.centroid).squeeze().item()
             sims = util.cos_sim(emb.unsqueeze(0), self.concept_embeds)[0]
             best_idx = int(sims.argmax())
@@ -106,6 +111,8 @@ class MainConceptAnalyzerNormalize:
                         is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
                         self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
                 else:
+                    # if num_ciu_nouns == 0 and dist > strict_cutoff:
+                    #     is_match = False
                     matched_concept = self.concepts[best_idx]
                     is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
                     self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
@@ -280,9 +287,10 @@ if __name__ == "__main__":
         return_score=True
     )
 
-    df.to_csv("../data/data/matching_mainconcept_dementia_controls_predicted_output.csv", index=False, encoding="utf-8")
+    df.to_csv("../data/data/matching_mainconcept_aphasia_controls_predicted_output.csv", index=False, encoding="utf-8")
     # print(df.to_string(index=False))
     # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
     # print(f"Topic switch score: {score}")
     # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
+
     # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")

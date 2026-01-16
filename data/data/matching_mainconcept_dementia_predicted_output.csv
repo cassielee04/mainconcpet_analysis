@@ -87,7 +87,7 @@ On the uh on the uh.,On the on the,,0.1458,0.8542,False,False
 Yeah.,,,0.1262,0.8738,False,False
 The uh uh.,The,,0.1375,0.8625,False,False
 Cancer than the uh um.,Cancer than the,,0.0138,0.9862,False,False
-"Um The, um, 2 run, um, so from the uh.","The, 2 run, so from the",Stepmother/stepsisters went to the ball.,0.1889,0.8111,True,
+"Um The, um, 2 run, um, so from the uh.","The, 2 run, so from the",,0.1889,0.8111,False,False
 "Um, Palos, yeah.",Palos,,0.069,0.931,False,False
 Um Um.,,,0.1262,0.8738,False,False
 Yeah.,,,0.1262,0.8738,False,False
@@ -294,7 +294,7 @@ The stepmother had Two daughters.,The stepmother had Two daughters.,Stepmother/s
 Who treated along with the stepmother treated Cinderella poorly.,Who treated along with the stepmother treated Cinderella poorly.,Stepmother/stepsisters were mean to Cinderella.,0.7884,0.2116,True,
 "Uh, the king.",the king,The king thinks the prince should get married.,0.3105,0.6895,True,
 "and the kingdom where they lived decided it was time for his son to marry,.","and the kingdom where they lived decided it was time for his son to marry,.",The king thinks the prince should get married.,0.473,0.527,True,
-and he held the ball.,and he held the ball.,They are excited about the ball.,0.1877,0.8123,True,
+and he held the ball.,and he held the ball.,,0.1877,0.8123,False,False
 "Cinderella, uh, wanted to go to the ball,.","Cinderella, wanted to go to the ball",Cinderella went to the ball in the coach.,0.8001,0.1999,True,True
 "but the stepsister said, no, you don't have anything to wear, yada yada yada.","but the stepsister said, no, you don't have anything to wear, yada yada yada.",The slipper didn’t fit the stepsisters.,0.526,0.474,True,
 And um the fairy godmother.,And the fairy godmother,A fairy godmother appeared to Cinderella.,0.5041,0.4959,True,
@@ -349,7 +349,7 @@ because the um magic godmother said you have to disappear at midnight.,because t
 because everything will turn back into normal and your beautiful dress and your beautiful clothes will be back to the poor little um.,because everything will turn back into normal and your beautiful dress and your beautiful clothes will be back to the poor little,Everything turns back to its original form.,0.3874,0.6126,True,
 "Um, stuff.",stuff,,0.1937,0.8063,False,False
 "that you, you were wearing originally.","that you, you were wearing originally.",The slipper didn’t fit the stepsisters.,0.253,0.747,True,
-So just before midnight.,just before midnight,She knew she had to be home by midnight because everything will turn back at midnight.,0.1437,0.8563,True,
+So just before midnight.,just before midnight,,0.1437,0.8563,False,False
 She started running away.,She started running away.,She ran down the stairs.,0.3755,0.6245,True,
 "And um, The prince Was trying to catch her.",And The prince Was trying to catch her,Prince finds Cinderella’s shoe.,0.5963,0.4037,True,
 and was looking.,and was looking.,The prince searched door to door for Cinderella.,0.2081,0.7919,True,
@@ -394,7 +394,7 @@ And you gotta show me every girl has to try it on in the whole country.,And you 
 "and then they dragged her out from the back of the kitchen saying, oh well, she's got to try it on too.","they dragged her out from the back of the kitchen saying, she's got to try it on too",The slipper didn’t fit the stepsisters.,0.4362,0.5638,True,
 and He tried on the shoes.,and He tried on the shoes.,He put the slipper on Cinderella’s foot.,0.3325,0.6675,True,
 "and Tiny they were, but her feet were small,.","and Tiny they were, but her feet were small,.",The slipper didn’t fit the stepsisters.,0.4062,0.5938,True,
-and it fit in a minute it fit.,and it fit in a minute it fit.,The slipper fits Cinderella perfectly.,0.1836,0.8164,True,
+and it fit in a minute it fit.,and it fit in a minute it fit.,,0.1836,0.8164,False,False
 You know that was the magic moment and uh.,that was the magic moment and,The prince and Cinderella danced around the room/all night/with no one else.,0.319,0.681,True,
 So he chose her.,he chose her,,0.3366,0.6634,False,False
 "and he, you know, married her,.","and he, married her",Cinderella and the prince were married.,0.4343,0.5657,True,

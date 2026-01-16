@@ -21,7 +21,7 @@ and there they talk about the fact.,and there they talk about the fact.,,0.1013,
 And um that 's why the father has to be dead.,And that 's why the father has to be dead,Dad remarried a woman with two daughters.,0.3238,0.6762,True,
 So then we see the king who's a rather blustery man saying my son has to marry the prince really needs a wife.,then we see the king who's a rather blustery man saying my son has to marry the prince really needs a wife,The king thinks the prince should get married.,0.537,0.463,True,
 Would he please settle down?,Would he please settle down?,,0.0596,0.9404,False,False
-and get a wife?,and get a wife?,Dad remarried a woman with two daughters.,0.1569,0.8431,True,
+and get a wife?,and get a wife?,,0.1569,0.8431,False,False
 "We're going to have a ball where he can meet all the young women in the kingdom,.","We're going to have a ball where he can meet all the young women in the kingdom,.",King announces there is going to be a ball in honor of son who needs to find a wife.,0.3881,0.6119,True,
 and then he better choose a wife.,and then he better choose a wife.,The king thinks the prince should get married.,0.1771,0.8229,True,
 cause really we need him to get married.,cause really we need him to get married.,,0.1589,0.8411,False,False
@@ -67,15 +67,15 @@ while she's doing.,while she's doing.,Cinderella has to do housework.,0.2309,0.7
 and Cinderella gets a beautiful new gown.,and Cinderella gets a beautiful new gown.,The fairy godmother makes Cinderella into a beautiful princess.,0.7455,0.2545,True,True
 "She turns a pumpkin into a carriage, turns the mice into footmen.","She turns a pumpkin into a carriage, turns the mice into footmen.",The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.5895,0.4105,True,
 And she gives her some beautiful shoes?,And she gives her some beautiful shoes?,Prince finds Cinderella’s shoe.,0.4588,0.5412,True,
-that can you imagine are made of glass?,that can you imagine are made of glass?,As she was running down the stairs she lost one of the glass slippers.,0.1508,0.8492,True,
+that can you imagine are made of glass?,that can you imagine are made of glass?,,0.1508,0.8492,False,False
 Comfortable?,Comfortable?,,0.0402,0.9598,False,False
 I think not.,not,,0.1231,0.8769,False,False
 So she goes off to the ball.,she goes off to the ball,Stepmother/stepsisters went to the ball.,0.3731,0.6269,True,
 The carriage.,The carriage.,The fairy godmother makes pumpkin and mice turn into carriage/coach and horses.,0.3595,0.6405,True,
 and the footman deliver.,and the footman deliver.,He put the slipper on Cinderella’s foot.,0.2707,0.7293,True,
 "Oh, the fairy godmother says,.",the fairy godmother says,A fairy godmother appeared to Cinderella.,0.4694,0.5306,True,
-but you have to be done by midnight.,but you have to be done by midnight.,She knew she had to be home by midnight because everything will turn back at midnight.,0.1246,0.8754,True,
-You have to be home by midnight.,You have to be home by midnight.,She knew she had to be home by midnight because everything will turn back at midnight.,0.1691,0.8309,True,
+but you have to be done by midnight.,but you have to be done by midnight.,,0.1246,0.8754,False,False
+You have to be home by midnight.,You have to be home by midnight.,,0.1691,0.8309,False,False
 The magic wears off at midnight.,The magic wears off at midnight.,Cinderella realized it is midnight.,0.2394,0.7606,True,
 "So Cinderella goes to the ball, she walks in.","Cinderella goes to the ball, she walks in",Cinderella went to the ball in the coach.,0.7996,0.2004,True,
 and the prince is smitten.,and the prince is smitten.,The king thinks the prince should get married.,0.5008,0.4992,True,
@@ -112,9 +112,9 @@ When he arrives at their house.,When he arrives at their house.,Prince comes to 
 Cinderella is not allowed to come up to the front where the prince is.,Cinderella is not allowed to come up to the front where the prince is.,Prince comes to Cinderella's house.,0.5925,0.4075,True,
 "Anastasia tries it on, Drusilla tries it on.","Anastasia tries it on, Drusilla tries it on.",The stepsisters try on the glass slipper.,0.354,0.646,True,
 "They have big ugly feet, it.","They have big ugly feet, it.",The slipper didn’t fit the stepsisters.,0.195,0.805,True,
-so doesn't fit.,doesn't fit,The slipper didn’t fit the stepsisters.,0.1626,0.8374,True,
+so doesn't fit.,doesn't fit,,0.1626,0.8374,False,False
 "And in the brothers Grim version, they hack off their toes and their heels,.","And in the brothers Grim version, they hack off their toes and their heels,.",Stepsisters tore Cinderella’s dress.,0.3488,0.6512,True,
-and they still don't fit.,and they still don't fit.,The slipper didn’t fit the stepsisters.,0.1183,0.8817,True,
+and they still don't fit.,and they still don't fit.,,0.1183,0.8817,False,False
 But Disney doesn't hack off toes and heels.,But Disney doesn't hack off toes and heels.,Prince finds Cinderella’s shoe.,0.3322,0.6678,True,
 Somehow Cinderella manages to Get into the living room.,Somehow Cinderella manages to Get into the living room.,Cinderella has to do housework.,0.7778,0.2222,True,
 "that it fits, he loves her, they get married,.","that it fits, he loves her, they get married,.",The king thinks the prince should get married.,0.4393,0.5607,True,
@@ -238,7 +238,7 @@ They had a great time.,They had a great time.,They got an invitation to the ball
 "and the prince go door to door to see who fits this tiny little glass slipper,.","and the prince go door to door to see who fits this tiny little glass slipper,.",Prince finds Cinderella’s shoe.,0.5853,0.4147,True,
 and her sisters all tried on.,and her sisters all tried on.,The slipper didn’t fit the stepsisters.,0.3276,0.6724,True,
 and of course they have big old feet.,and of course they have big old feet.,The slipper didn’t fit the stepsisters.,0.255,0.745,True,
-and they don't fit.,and they don't fit.,The slipper didn’t fit the stepsisters.,0.1219,0.8781,True,True
+and they don't fit.,and they don't fit.,,0.1219,0.8781,False,False
 "And um Cinderella says, well, wait, let me try it on,.","And Cinderella says, wait, let me try it on",Prince finds Cinderella’s shoe.,0.6457,0.3543,True,
 and she comes down.,and she comes down.,She ran down the stairs.,0.3686,0.6314,True,
 "and it fits perfectly,.","and it fits perfectly,.",The slipper fits Cinderella perfectly.,0.212,0.788,True,

@@ -1,7 +1,7 @@
 participant,utterance,Ground Truth Matching? ,predicted matching
 20-2,"At any rate, Cinderella was working in a in a house with a a Harsh woman who uh didn't really appreciate her and everything else and uh she Um, Mm.",True,True
 20-2,"OK, anyway, she, um.",False,False
-20-2,"Yeah, OK, we'll go from there.",False,True
+20-2,"Yeah, OK, we'll go from there.",False,False
 20-2,"Anyway, there's a fair uh fairy godmother who, uh, she encounters.",True,True
 20-2,"and who provides her with the opportunity to go to a A uh Dance or a uh some kind of a celebration where she meets a a wonderful looking man who she falls in love with and so forth,.",True,True
 20-2,and they dance until midnight and then unfortunately at midnight.,True,True
@@ -11,7 +11,7 @@ participant,utterance,Ground Truth Matching? ,predicted matching
 20-2,"before it turns into a pumpkin,.",True,True
 20-2,but she leaves behind her silver slipper or whatever the glass slipper.,True,True
 20-2,and uh She goes back to work there and so forth and Through the surprise of the people who he works for or with lives with and so forth when the the uh two sisters that lived there with their with their with their mother um are disappointed when the prince comes around with the the golden with the glass slipper.,True,True
-20-2,"He tries it on their feet and their feet are way too big,.",True,True
+20-2,"He tries it on their feet and their feet are way too big,.",True,False
 20-2,"and they come to to Cinderella, put it on.",True,True
 20-2,and it fits like a glove.,True,True
 20-2,"And therefore, say you fall madly in love.",True,True
@@ -69,46 +69,46 @@ participant,utterance,Ground Truth Matching? ,predicted matching
 Baycrest13188,has 2 sisters.,True,True
 Baycrest13188,"Um, to the, um.",False,False
 Baycrest13188,The uh cos of the old.,False,True
-Baycrest13188,"Um, as soon, sooner rather, uh, not go to the, the poor.",False,True
+Baycrest13188,"Um, as soon, sooner rather, uh, not go to the, the poor.",False,False
 Baycrest13188,Of the um.,False,False
-Baycrest13188,Sent.,False,True
+Baycrest13188,Sent.,False,False
 Baycrest13188,and met the prince.,True,True
 Baycrest13188,"Um, The um Um, The um um.",False,False
 Baycrest13188,That send it right on um um.,False,True
 Baycrest13188,Um That's the um.,False,False
 Baycrest13188,"Ah Um Yeah, Um, Um The fairy godmother, yes.",True,True
-Baycrest13188,For a couple of the um uh.,False,True
-Baycrest13188,"The uh Charles Moon, the uh um mass, the um.",False,True
+Baycrest13188,For a couple of the um uh.,False,False
+Baycrest13188,"The uh Charles Moon, the uh um mass, the um.",False,False
 Baycrest13188,The um uh uh.,False,False
 Baycrest13188,"Ho Um, the uh carriage, right.",True,True
 Baycrest13188,"Um, um, the, um.",False,False
-Baycrest13188,Center of the um.,False,True
+Baycrest13188,Center of the um.,False,False
 Baycrest13188,"Uh, the, uh Uh, shoes and the uh.",True,True
-Baycrest13188,"Um Trust, yeah.",False,True
+Baycrest13188,"Um Trust, yeah.",False,False
 Baycrest13188,On the uh on the uh.,False,False
 Baycrest13188,Yeah.,False,False
 Baycrest13188,Yeah.,False,False
 Baycrest13188,The uh uh.,False,False
-Baycrest13188,Cancer than the uh um.,False,True
-Baycrest13188,"Um The, um, 2 run, um, so from the uh.",False,True
+Baycrest13188,Cancer than the uh um.,False,False
+Baycrest13188,"Um The, um, 2 run, um, so from the uh.",False,False
 Baycrest13188,"Um, Palos, yeah.",False,False
 Baycrest13188,Um Um.,False,False
 Baycrest13188,Um Um.,False,False
 Baycrest13188,Yeah.,False,False
 Baycrest13188,Yeah.,False,False
-Baycrest13188,It's chaps.,False,True
+Baycrest13188,It's chaps.,False,False
 Baycrest13188,"Um, um.",False,False
-Baycrest13188,And the um previous record magazine.,False,True
-Baycrest13188,"And the uh With that, Um, Um, sort of a park.",False,True
+Baycrest13188,And the um previous record magazine.,False,False
+Baycrest13188,"And the uh With that, Um, Um, sort of a park.",False,False
 Baycrest13188,Um Um.,False,False
 Baycrest13188,Um Um.,False,False
 Baycrest13188,The um um um.,False,False
 Baycrest13188,Uh so like uh the um uh.,False,False
-Baycrest13188,Center uh um uh.,False,True
-Baycrest13188,"Um, He chopped down the ss um the Um Um Um Uh, the, um.",False,True
+Baycrest13188,Center uh um uh.,False,False
+Baycrest13188,"Um, He chopped down the ss um the Um Um Um Uh, the, um.",False,False
 Baycrest13188,Um The um uh.,False,False
-Baycrest13188,"Uh, uh, so the business, um, um.",False,True
-Baycrest13188,"Um, Goats, right, right.",False,True
+Baycrest13188,"Uh, uh, so the business, um, um.",False,False
+Baycrest13188,"Um, Goats, right, right.",False,False
 Baycrest13188,"Um, yes, um.",False,False
 Baycrest13188,"You should, yeah, yeah, yeah, I like class, right, you know, um, yeah, um.",False,False
 Baycrest13188,"The uh Uh, they go.",False,True
@@ -119,10 +119,10 @@ Baycrest13188,And their prints.,False,False
 Baycrest13188,The uh shoes were a class.,True,True
 Baycrest13188,"Um, yeah, yeah.",False,False
 Baycrest13188,"Um, yeah, yeah.",False,False
-Baycrest13188,"Uh The um Try to do that, uh, tried it.",False,True
+Baycrest13188,"Uh The um Try to do that, uh, tried it.",False,False
 Baycrest13188,Um Uh.,False,False
 Baycrest13188,"Um, they, you know.",False,False
-Baycrest13188,"Um, This is right up on the uh.",False,True
+Baycrest13188,"Um, This is right up on the uh.",False,False
 Baycrest13188,"Uh, parties.",True,True
 Baycrest13188,"Um, And so um.",False,False
 Baycrest13188,"Um, The um uh prince.",True,True
@@ -130,7 +130,7 @@ Baycrest13074,"if I remember correctly, it was this one girl, she was working.",
 Baycrest13074,"Uh, she was adopted, whatever with from by this one lady who had 3 daughters,.",True,True
 Baycrest13074,"and the lady took very good care of the 3 girls,.",True,True
 Baycrest13074,and Cinderella had to do all the hard work.,True,True
-Baycrest13074,Scrub the floors and all the menial task.,True,True
+Baycrest13074,Scrub the floors and all the menial task.,True,False
 Baycrest13074,and there was a party going on.,True,True
 Baycrest13074,And the girls were all dressed their way to the party.,True,True
 Baycrest13074,"The mom helped them dressed them,.",True,True
@@ -145,13 +145,13 @@ Baycrest13074,"and by the time she left something with the slippers, she left he
 Baycrest12756,um uh woman and the um her.,False,True
 Baycrest12756,"Um, mother,.",True,True
 Baycrest12756,"and they don't want um Cinderella, they, they want them just to.",True,True
-Baycrest12756,We do They can't do anything with?,False,True
-Baycrest12756,"Well, there comes a little.",False,True
+Baycrest12756,We do They can't do anything with?,False,False
+Baycrest12756,"Well, there comes a little.",False,False
 Baycrest12756,"Um, into a, um.",False,True
-Baycrest12756,"It's really a carbon, no.",False,True
+Baycrest12756,"It's really a carbon, no.",False,False
 Baycrest12756,"Yeah, there is a um.",False,True
 Baycrest12756,Is a carriage?,True,True
-Baycrest12756,that you're looking for?,False,True
+Baycrest12756,that you're looking for?,False,False
 Baycrest12756,Probably.,False,False
 Baycrest12756,"Yeah,.",False,False
 Baycrest12756,"and they have the a prince, and ,.",True,True
@@ -253,7 +253,7 @@ Baycrest12756,"and ever, love.",True,False
 47-1,And then he found the shoe.,True,True
 47-1,"or she left her shoe somewhere,.",True,True
 47-1,"and the story was if the, if , if it was her shoe, then the prince wanted to meet her.",True,True
-47-1,"or do something with her,.",False,True
+47-1,"or do something with her,.",False,False
 47-1,"but in any case, they tried the shoe on all the women and uh She was the one who fit the shoe.",True,True
 47-1,"or the shoe fit her,.",True,True
 47-1,"and she went off with the prince,.",True,True
@@ -265,13 +265,13 @@ Baycrest12756,"and ever, love.",True,False
 14-2,"and Deuces the the three new people, the mother, the stepmother and her two daughters to his daughter Cinderella.",True,True
 14-2,"Um, they don't particularly get along,.",True,True
 14-2,"and they treat Cinderella as a servant who must bring them stuff to, to, to eat.",True,True
-14-2,and drink.,False,True
+14-2,and drink.,False,False
 14-2,"Uh, meanwhile, the king has decided it's time for his son to get married,.",True,True
 14-2,so they decide they're going to have a big ball.,True,True
 14-2,And invite all of the uh eligible women in the county.,True,True
 14-2,"The sister, the mother gets uh an invitation.",True,True
 14-2,and everybody's excited.,True,False
-14-2,And is planning to go.,True,True
+14-2,And is planning to go.,True,False
 14-2,Cinderella goes to a trunk.,True,True
 14-2,and finds a dress or something that that she can wear.,True,True
 14-2,so she can go.,True,True
@@ -305,11 +305,11 @@ Baycrest12756,"and ever, love.",True,False
 14-1,Who treated along with the stepmother treated Cinderella poorly.,True,True
 14-1,"Uh, the king.",True,True
 14-1,"and the kingdom where they lived decided it was time for his son to marry,.",True,True
-14-1,and he held the ball.,True,True
+14-1,and he held the ball.,True,False
 14-1,"Cinderella, uh, wanted to go to the ball,.",True,True
 14-1,"but the stepsister said, no, you don't have anything to wear, yada yada yada.",True,True
 14-1,And um the fairy godmother.,True,True
-14-1,Came.,False,True
+14-1,Came.,False,False
 14-1,and took a punkin.,True,True
 14-1,"and turned it into a coach, gave her a glass slipper.",True,True
 14-1,and decked her out for the ball.,True,True
@@ -327,7 +327,7 @@ Baycrest12756,"and ever, love.",True,False
 14-1,and He finally found.,False,True
 14-1,"after the stepsisters tried to Put on the slipper, they couldn't of course,.",True,True
 14-1,but it fits Cinderella.,True,True
-14-1,End of story.,True,True
+14-1,End of story.,True,False
 14-1,She lived happily ever after as a princess.,True,True
 Baycrest11634,"OK, so Cinderella was um.",True,True
 Baycrest11634,"She was, she was, um, living with her stepmother.",True,True
@@ -362,7 +362,7 @@ Baycrest11634,because the um magic godmother said you have to disappear at midni
 Baycrest11634,because everything will turn back into normal and your beautiful dress and your beautiful clothes will be back to the poor little um.,True,True
 Baycrest11634,"Um, stuff.",False,False
 Baycrest11634,"that you, you were wearing originally.",False,True
-Baycrest11634,So just before midnight.,True,True
+Baycrest11634,So just before midnight.,True,False
 Baycrest11634,She started running away.,True,True
 Baycrest11634,"And um, The prince Was trying to catch her.",True,True
 Baycrest11634,and was looking.,True,True
@@ -387,7 +387,7 @@ Baycrest11634,that he wanted to dance with.,True,True
 Baycrest11634,and he wanted to be with.,True,True
 Baycrest11634,And he went around the countryside.,True,True
 Baycrest11634,Checking out all the ladies.,True,True
-Baycrest11634,And try wishing to find the person.,True,True
+Baycrest11634,And try wishing to find the person.,True,False
 Baycrest11634,that lost the shoe.,True,True
 Baycrest11634,"And of course, uh, he got around to.",True,True
 Baycrest11634,that Castle of um.,True,True
@@ -398,17 +398,17 @@ Baycrest11634,"and Being very, um, you know, domesticated.",True,True
 Baycrest11634,And um He went.,False,True
 Baycrest11634,and tried the shoes on on everybody.,True,True
 Baycrest11634,"as the story would go the shoes were too small for everybody, too small for each of the stepsisters,.",True,True
-Baycrest11634,as we in our heads know that small feet are wonderful.,True,True
+Baycrest11634,as we in our heads know that small feet are wonderful.,True,False
 Baycrest11634,"OK, anyway, so the shoe just would not fit on anybody and finally, um.",True,True
 Baycrest11634,"He said,.",False,False
 Baycrest11634,but I know.,False,False
 Baycrest11634,that there is somebody else here.,False,True
-Baycrest11634,And you gotta show me every girl has to try it on in the whole country.,True,True
+Baycrest11634,And you gotta show me every girl has to try it on in the whole country.,True,False
 Baycrest11634,"Everybody, everybody,.",False,False
 Baycrest11634,"and then they dragged her out from the back of the kitchen saying, oh well, she's got to try it on too.",True,True
 Baycrest11634,and He tried on the shoes.,True,True
 Baycrest11634,"and Tiny they were, but her feet were small,.",True,True
-Baycrest11634,and it fit in a minute it fit.,True,True
+Baycrest11634,and it fit in a minute it fit.,True,False
 Baycrest11634,You know that was the magic moment and uh.,True,True
 Baycrest11634,So he chose her.,True,False
 Baycrest11634,"and he, you know, married her,.",True,True
@@ -429,16 +429,16 @@ Baycrest11634,and went off in the beautiful carriage.,True,True
 15-1,"Uh, she's probably away.",False,False
 15-1,and The ugly stepsisters come into the room.,True,True
 15-1,"All giggles and smiles because it's like the ball at the palace, and they're all excited.",True,True
-15-1,about going to.,False,True
+15-1,about going to.,False,False
 15-1,that Yeah It calls it tells Cinderella.,True,True
 15-1,"that she's not invited, but she's just this uh scholarly maid.",True,True
 15-1,"So she was a little bit down in the dumps, the girls, little stepsists get all bussing up ready for the ball.",True,True
-15-1,There you go.,False,True
+15-1,There you go.,False,False
 15-1,They they head off to the palace.,True,True
 15-1,And Cinderella has a lot of friends.,True,True
 15-1,"They did mice and uh birds and such, but uh.",True,True
 15-1,"He,.",False,False
-15-1,as I said her her friends.,False,True
+15-1,as I said her her friends.,False,False
 15-1,And they want to help her get through the ball.,True,True
 15-1,And their godmother shows up and she.,True,True
 53-1,"was a poor girl, um.",True,True
@@ -462,7 +462,7 @@ Baycrest11634,and went off in the beautiful carriage.,True,True
 50-1,and finds a dress.,True,True
 50-1,and goes to the um.,False,True
 50-1,"Dance,.",True,True
-50-1,"if you will,.",False,True
+50-1,"if you will,.",False,False
 50-1,"and the other two sisters, the ugly sisters, uh, don't like it,.",True,True
 50-1,"and she runs away,.",True,True
 50-1,"and then she's sitting in the house,.",True,True
@@ -470,7 +470,7 @@ Baycrest11634,and went off in the beautiful carriage.,True,True
 50-1,"and was trying it on everybody in the family, including the ugly sisters, and boy are they ever, um, but uh um.",True,True
 50-1,"She's fits the her, the glass shoe fits her perfectly.",True,True
 50-1,"Um, they go back to the, the bachelor or would be king,.",True,True
-50-1,"if you will, um,.",False,True
+50-1,"if you will, um,.",False,False
 50-1,and they live happily ever after.,True,True
 50-1,and they live happily ever after.,True,True
 61-1,"Cinderella was a very had a very happy family, um,.",True,True

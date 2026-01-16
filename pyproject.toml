@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]  # Modern builder (install once: pip install hatchling)
+build-backend = "hatchling.build"
+
+[project]
+name = "mainconcept-analysis"  # Pick a name (lowercase, no spaces; e.g., your project slug)
+version = "0.1.0"
+description = "Analysis of dementia transcripts via main concepts and features"
+authors = [{name = "Your Name", email = "you@example.com"}]  # Optional
+dependencies = [
+    "torch",  # Add your libs here (e.g., pandas, lexicalrichness)
+    "pandas",
+    "json",
+    # Add more: e.g., "lexicalrichness", "stanza" for NLP
+]
+requires-python = ">=3.8"  # Adjust for your Python version
+
+[project.optional-dependencies]
+dev = [
+    "pytest",  # For running tests
+    # Add linting: "ruff", "black"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/<project_name>"]  # Replace <project_name> with 'dementia_analysis' (no hyphens, match 'name' above but underscores)
+
+# Optional: Include .txt files in package (if needed for distribution)
+[tool.hatch.build.targets.wheel.sources]
+"src/<project_name>" = "src"

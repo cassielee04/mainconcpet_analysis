@@ -49,10 +49,26 @@ def calculate_cinderella_ciu(transcript, duration_seconds, total_words_count, na
 def get_ciu_nouns(narrative_type):
     return cfg["stories"][0]["ciu_nouns"] if narrative_type == 'cinderella' else []
 
+def count_filtered_corelex(narrative_type):
+    if narrative_type == 'cinderella':
+        corelex = cfg["stories"][0]["filtered_core_lexicon"]
+    else:
+        return 0
+
+    lemmatizer = WordNetLemmatizer()
+    matched_corelex = []
+    tokens = word_tokenize(utterance)
+    for word in tokens:
+        if word == 'like':
+            return len(matched_corelex), matched_corelex
+        lemma = lemmatizer.lemmatize(word.lower())
+        if lemma in corelex:
+            matched_corelex.append(lemma)
+    return len(matched_corelex), matched_corelex
+
 def count_ciu_nouns(narrative_type, utterance):
     if narrative_type == 'cinderella':
         ciu_nouns = cfg["stories"][0]["ciu_nouns"]
-    
     else:
         return 0
 

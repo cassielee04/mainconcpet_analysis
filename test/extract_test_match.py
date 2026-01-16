@@ -67,11 +67,11 @@ mainconcept_df = analyzer.get_mainconcept_match(
     return_score=True
 )
 
+mainconcept_df
 # ──────────────────────────────────────────────────────────────
 # 6. SAVE
 # ──────────────────────────────────────────────────────────────
 OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)   # create folder if needed
-mainconcept_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
 
 print(f"DataFrame saved to:\n{OUTPUT_CSV}")
 print(f"Shape: {mainconcept_df.shape}")
