@@ -77,6 +77,8 @@ class MainConceptAnalyzerNormalize:
         Returns:
             pd.DataFrame: DataFrame with columns for utterance, matched concept, scores, and match status.
         """
+        if isinstance(utterances, str):
+            utterances = [utterances]
         if isinstance(normalize_utterances, str):
             normalize_utterances = [normalize_utterances]
         # Encode utterance embeddings
@@ -179,6 +181,7 @@ class MainConceptAnalyzerNormalize:
         # If not repeated and add_to_set is True, store the utterance and its embedding
         if add_to_set:
             self.previous_utterances.append((utterance, current_embedding))
+        return False
         
     def get_unique_mainconcepts(self):
         return self.unique_matched_concepts
@@ -222,8 +225,13 @@ class MainConceptAnalyzerNormalize:
 
         total_pairs = n * (n - 1) / 2
         return violations / total_pairs
-
-    def score_story_sequence(self, utterances, normalize_utterances=None, return_score=False):
+    
+    def reset_tracking(self):
+        self.unique_matched_concepts = set()
+        self.total_mainconcepts = []
+        self.previous_utterances = []
+ 
+    def score_story_sequence(self, utterances, normalize_utts=None, return_score=False):
         """
         Score the story sequence by mapping utterances to concept indices and computing order difference ratio.
         
@@ -235,11 +243,11 @@ class MainConceptAnalyzerNormalize:
         Returns:
             tuple: (matched_concepts: list of int, score: float if return_score else None)
         """
-        if normalize_utterances is None:
-            normalize_utterances = normalize_utterances(utterances)
+        if normalize_utts is None:
+            normalize_utts = normalize_utterances(utterances)
 
         # Get main concept matches
-        df_matches = self.get_mainconcept_match(utterances, normalize_utterances, return_score=True)
+        df_matches = self.get_mainconcept_match(utterances, normalize_utts, return_score=True)
 
         matched_concepts = []
         for _, row in df_matches.iterrows():
@@ -262,35 +270,35 @@ class MainConceptAnalyzerNormalize:
 
 
 # Example usage
-if __name__ == "__main__":
-    analyzer = MainConceptAnalyzerNormalize()
-    # text = ("He tries it on their feet and their feet are way too big,.")
-    # utterances = read.csv("../data/data/matching_mainconcept_dementia_predicted_output.csv")["utterance"].tolist()
+# if __name__ == "__main__":
+#     analyzer = MainConceptAnalyzerNormalize(global_cutoff = 0.8047)
+#     # text = ("He tries it on their feet and their feet are way too big,.")
+#     # utterances = read.csv("../data/data/matching_mainconcept_dementia_predicted_output.csv")["utterance"].tolist()
     
-    # test_utterances = segment_utterances(utterances)
-    # normalize_utterances = normalize_utterances(test_utterances)
-    # df = analyzer.get_mainconcept_match(test_utterances,normalize_utterances, return_score=True)
+#     # test_utterances = segment_utterances(utterances)
+#     # normalize_utterances = normalize_utterances(test_utterances)
+#     # df = analyzer.get_mainconcept_match(test_utterances,normalize_utterances, return_score=True)
 
-    df_csv = pd.read_csv("../data/data/Matching Concept Check - Controls - All.csv")
-    utterances = df_csv["utterances"].dropna().astype(str).tolist()
+#     df_csv = pd.read_csv("../data/data/Matching Concept Check - Controls - All.csv")
+#     utterances = df_csv["utterances"].dropna().astype(str).tolist()
 
-    # --- Segment the utterances ---
-    test_utterances = utterances
+#     # --- Segment the utterances ---
+#     test_utterances = utterances
 
-    # --- Normalize utterances ---
-    normalized_utts = normalize_utterances(test_utterances)
+#     # --- Normalize utterances ---
+#     normalized_utts = normalize_utterances(test_utterances)
 
-    # --- Get Main Concept matching results ---
-    df = analyzer.get_mainconcept_match(
-        test_utterances,
-        normalized_utts,
-        return_score=True
-    )
+#     # --- Get Main Concept matching results ---
+#     df = analyzer.get_mainconcept_match(
+#         test_utterances,
+#         normalized_utts,
+#         return_score=True
+#     )
 
-    df.to_csv("../data/data/matching_mainconcept_aphasia_controls_predicted_output.csv", index=False, encoding="utf-8")
-    # print(df.to_string(index=False))
-    # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
-    # print(f"Topic switch score: {score}")
-    # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
+#     df.to_csv("../data/data/matching_mainconcept_dementia_controls_predicted_update_output.csv", index=False, encoding="utf-8")
+#     # print(df.to_string(index=False))
+#     # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
+#     # print(f"Topic switch score: {score}")
+#     # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
 
-    # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")
+#     # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")

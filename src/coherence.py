@@ -64,10 +64,10 @@ def classify_error(utterances: list, idx: int, analyzer: MainConceptAnalyzerNorm
     is_repeated = mainconcept_result['is_repeated'].iloc[0]
 
     if is_mainconcept_match:
-        if matched_concept is not None:
-                analyzer.count_repeated_mainconcept_by_idx(
-                    analyzer.concepts.index(matched_concept), add_to_set=True
-            )
+        # if matched_concept is not None:
+        #         analyzer.count_repeated_mainconcept_by_idx(
+        #             analyzer.concepts.index(matched_concept), add_to_set=True
+        #     )
         if contains_personal_story(current_utt) and not contains_filler(current_utt):
             return "Tangential Utterance"
         elif idx > 0 and is_repeated:
@@ -221,39 +221,39 @@ def extract_coherence_sanity_checks(csv_file_path) -> dict:
     return counts, result_df[['participant_code','Utterance', 'Error Type', 'Matched Concept']]
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
 
-    # folder_path = os.path.abspath("../Data/transcripts/bank/dementia/aws/cinderella/test_set")
-    # all_dfs = []
-    # for idx, text_file in enumerate(glob(os.path.join(folder_path, "*_transcribed.json"))):
-    #     base = os.path.splitext(os.path.basename(text_file))[0]
-    #     participant_id = base.split('_')[0]
+#     # folder_path = os.path.abspath("../Data/transcripts/bank/dementia/aws/cinderella/test_set")
+#     # all_dfs = []
+#     # for idx, text_file in enumerate(glob(os.path.join(folder_path, "*_transcribed.json"))):
+#     #     base = os.path.splitext(os.path.basename(text_file))[0]
+#     #     participant_id = base.split('_')[0]
 
-    #     json_path = f"../Data/transcripts/bank/dementia/aws/cinderella/{base}.json"
-    #     print(f"🔍 Processing files for participant: {participant_id}")
-    #     print(f"\n🚀 Processing Participant: {participant_id}")
-    #     base = os.path.splitext(os.path.basename(json_path))[0]
-    #     participant_id = base.split('_')[0]
+#     #     json_path = f"../Data/transcripts/bank/dementia/aws/cinderella/{base}.json"
+#     #     print(f"🔍 Processing files for participant: {participant_id}")
+#     #     print(f"\n🚀 Processing Participant: {participant_id}")
+#     #     base = os.path.splitext(os.path.basename(json_path))[0]
+#     #     participant_id = base.split('_')[0]
 
-    #     # Load and clean text
-    #     text = load_text_from_aws_json(json_path)
-    #     cleaned_text = clean_text(text)
-    #     demo_utts = segment_utterances(cleaned_text)
+#     #     # Load and clean text
+#     #     text = load_text_from_aws_json(json_path)
+#     #     cleaned_text = clean_text(text)
+#     #     demo_utts = segment_utterances(cleaned_text)
 
-    #     # Feature extraction
-    #     df_features = pd.DataFrame([{}]) 
+#     #     # Feature extraction
+#     #     df_features = pd.DataFrame([{}]) 
 
-    #     run_demo(demo_utts)
-    # Example usage
-    csv_file_path = "../data/coherence_controls_sample.csv"
-    # csv_file_path = "tools/sample_coherence_check.csv"
+#     #     run_demo(demo_utts)
+#     # Example usage
+#     csv_file_path = "../data/coherence_controls_sample.csv"
+#     # csv_file_path = "tools/sample_coherence_check.csv"
     
-    # # Run the analysis
-    counts, result_df = extract_coherence_sanity_checks(csv_file_path)
-    print("Final Error Counts:", counts)
+#     # # Run the analysis
+#     counts, result_df = extract_coherence_sanity_checks(csv_file_path)
+#     print("Final Error Counts:", counts)
     
-    # Optionally save the output to a new CSV file
-    result_df.to_csv("../data/sanitycheck_coherence_controls_dementia.csv", index=False)
+#     # Optionally save the output to a new CSV file
+#     result_df.to_csv("../data/sanitycheck_coherence_controls_dementia.csv", index=False)
 
 
