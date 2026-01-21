@@ -242,17 +242,6 @@ if __name__ == "__main__":
     if not os.path.exists(EMBEDDINGS_FILE):
         save_embeddings_and_centroid(EMBED_ID, CONFIG_PATH, EMBEDDINGS_FILE)
     
-    # # Example: Load and print initial (cutoff/mean_dist/std_dist will be None initially)
-    # concept_embeds, centroid, concepts, avg_concept_sim, cutoff, mean_dist, std_dist = load_embeddings_and_centroid(EMBEDDINGS_FILE)
-    # print(f"Loaded {len(concepts)} concept embeddings with shape: {concept_embeds.shape}")
-    # print(f"Centroid shape: {centroid.shape}")
-    # print(f"Average concept similarity: {avg_concept_sim:.4f}")
-    # print(f"Cutoff: {cutoff if cutoff is not None else 'Not set'}")
-    # print(f"Mean dist: {mean_dist if mean_dist is not None else 'Not set'}")
-    # print(f"Std dist: {std_dist if std_dist is not None else 'Not set'}")
-    
-    # # Example new utterances (replace with actual new ones from CSV or elsewhere)
-    
     
     # Update cutoff, mean_dist, and std_dist with new utterances (using GPU if available); centroid unchanged
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
