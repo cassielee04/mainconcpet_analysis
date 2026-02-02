@@ -105,6 +105,7 @@ class MainConceptAnalyzerNormalize:
             utterance_tokens = [token for token in utterance_tokens if token]
             num_ciu_nouns = count_ciu_nouns('cinderella', normalize_utterances[i])[0]
             if is_match:
+                
                 matched_concept = self.concepts[best_idx]
                 is_repeated = self.is_repeated_utt(normalize_utterances[i], add_to_set=True)
                 self.count_repeated_mainconcept_by_idx(best_idx, add_to_set=True)
@@ -260,35 +261,35 @@ class MainConceptAnalyzerNormalize:
 
 
 # Example usage
-# if __name__ == "__main__":
-#     analyzer = MainConceptAnalyzerNormalize(global_cutoff = 0.8047)
-#     # text = ("He tries it on their feet and their feet are way too big,.")
-#     # utterances = read.csv("../data/data/matching_mainconcept_dementia_predicted_output.csv")["utterance"].tolist()
+if __name__ == "__main__":
+    analyzer = MainConceptAnalyzerNormalize(global_cutoff = 0.8289)
+    # text = ("He tries it on their feet and their feet are way too big,.")
+    # utterances = read.csv("../data/data/matching_mainconcept_dementia_predicted_output.csv")["utterance"].tolist()
     
-#     # test_utterances = segment_utterances(utterances)
-#     # normalize_utterances = normalize_utterances(test_utterances)
-#     # df = analyzer.get_mainconcept_match(test_utterances,normalize_utterances, return_score=True)
+    # test_utterances = segment_utterances(utterances)
+    # normalize_utterances = normalize_utterances(test_utterances)
+    # df = analyzer.get_mainconcept_match(test_utterances,normalize_utterances, return_score=True)
 
-#     df_csv = pd.read_csv("../data/data/Matching Concept Check - Controls - All.csv")
-#     utterances = df_csv["utterances"].dropna().astype(str).tolist()
+    df_csv = pd.read_csv("../data/data/Matching Concept Check - Controls - All.csv")
+    utterances = df_csv["utterances"].dropna().astype(str).tolist()
 
-#     # --- Segment the utterances ---
-#     test_utterances = utterances
+    # --- Segment the utterances ---
+    test_utterances = utterances
 
-#     # --- Normalize utterances ---
-#     normalized_utts = normalize_utterances(test_utterances)
+    # --- Normalize utterances ---
+    normalized_utts = normalize_utterances(test_utterances)
 
-#     # --- Get Main Concept matching results ---
-#     df = analyzer.get_mainconcept_match(
-#         test_utterances,
-#         normalized_utts,
-#         return_score=True
-#     )
+    # --- Get Main Concept matching results ---
+    df = analyzer.get_mainconcept_match(
+        test_utterances,
+        normalized_utts,
+        return_score=True
+    )
 
-#     df.to_csv("../data/data/matching_mainconcept_dementia_controls_predicted_update_output.csv", index=False, encoding="utf-8")
-#     # print(df.to_string(index=False))
-#     # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
-#     # print(f"Topic switch score: {score}")
-#     # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
+    df.to_csv("../data/data/base_matching_mainconcept_aphasia_controls_predicted_output.csv", index=False, encoding="utf-8")
+    # print(df.to_string(index=False))
+    # print(f"Average concept similarity: {analyzer.avg_concept_sim}")
+    # print(f"Topic switch score: {score}")
+    # print(f"Total unique main concepts: {analyzer.get_total_unique_mainconcepts()}")
 
-#     # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")
+    # print(f"Total main concepts (including repeats): {analyzer.get_total_mainconcepts()}")
